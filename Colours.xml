@@ -464,12 +464,4 @@
     <G>235</G>
     <B>0</B>
   </Colour>
-  <!--Cobertura Radar Aerovías-->
-  <Colour id="Custom">
-    <Use>Radar Airways</Use>
-    <Name>RadarAirway</Name>
-    <R>7</R>
-    <G>13</G>
-    <B>15</B>
-  </Colour>
 </Colours>

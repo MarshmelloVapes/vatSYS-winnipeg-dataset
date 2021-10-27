@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<Positions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Position Name="WPG_CTR_ALL" Type="ASD" DefaultCenter="+530351.051-0932039.771" DefaultRange="3000">
+    <Sectors>
+		<Sector Name="WPG_CTR_ALL" />
+    </Sectors>
+    <Maps>
+      <Map Name="CZWG_GEO" />
+	  <Map Name="CZWG_NDB" />
+	  <Map Name="CZWG FIR/FIR Border" />
+    </Maps>
+    <Strips Mode="State" Sort="Time">
+      <Window Type="State" State="Jurisdiction" Visible="true" />
+      <Window Type="State" State="Announced" Visible="true" />
+      <Window Type="State" State="Preactive" Visible="true" />
+    </Strips>
+    <CFL QuickLevel="10000" />
+    <ArrivalLists>
+    </ArrivalLists>
+    <ControllerInfo>
+	  <Line>Thanks for flying with the Winnipeg FIR!</Line>
+	  <Line>Questions, comments or feedback? We want to hear it!</Line>
+	  <Line>Visit us at winnipegfir.ca.</Line>
+    </ControllerInfo>
+  </Position>
+  <Position Name="CYWG_APP" Type="ASD" DefaultCenter="+495436.050-0971424.338" DefaultRange="290">
+    <Sectors>
+		<Sector Name="CYWG_APP" />
+    </Sectors>
+    <Maps>
+	  <Map Name="CYWG/Airspace" />
+	  <Map Name="CYWG/WGCZ" />
+    </Maps>
+    <Strips Mode="State" Sort="Time">
+      <Window Type="State" State="Jurisdiction" Visible="true" />
+      <Window Type="State" State="Announced" Visible="true" />
+      <Window Type="State" State="Preactive" Visible="true" />
+    </Strips>
+    <CFL QuickLevel="10000" />
+    <ArrivalLists>
+    </ArrivalLists>
+    <ControllerInfo>
+	  <Line>Thanks for flying with the Winnipeg FIR!</Line>
+	  <Line>Questions, comments or feedback? We want to hear it!</Line>
+	  <Line>Visit us at winnipegfir.ca.</Line>
+    </ControllerInfo>
+  </Position>
+
+  <Position Name="CYWG" Type="ASMGCS" ASMGCSAirport="CYWG" DefaultCenter="+495436.050-0971424.338" DefaultRange="3">
+      <Maps>
+        <Map Name="Winnipeg - (CYWG)/ASMGCS_CYWG_TWY" />
+		<Map Name="Winnipeg - (CYWG)/ASMGCS_CYWG_LABELS" />
+		<Map Name="Winnipeg - (CYWG)/CYWG_BLD" />
+      </Maps>
+	  <ControllerInfo>
+	    <Line>Thanks for flying with the Winnipeg FIR!</Line>
+	    <Line>Questions, comments or feedback? We want to hear it!</Line>
+	    <Line>Visit us at winnipegfir.ca.</Line>
+      </ControllerInfo>
+    </Position>
+</Positions>

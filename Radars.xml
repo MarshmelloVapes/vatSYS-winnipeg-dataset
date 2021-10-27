@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Radars>
+  <Radar Name="Edmonton" Type="PRI" Elevation="874" MaxRange="300" LatLong="+532058.000-1131638.000/" />
+  <Radar Name="Thunder Bay PSR" Type="SSR_ModeC" Elevation="300" MaxRange="255" LatLong="+482241.793-0891953.392/" />
+  <Radar Name="Winnipeg" Type="SSR_ModeC" Elevation="300" MaxRange="400" LatLong="+495532.469-0971541.328/" />
+  <Radar Name="Churchill" Type="SSR_ModeC" Elevation="300" MaxRange="250" LatLong="+584524.430-0940447.570/" />
+  <Radar Name="Hearst" Type="SSR_ModeC" Elevation="300" MaxRange="250" LatLong="+494156.761-0833202.589/" />
+  <Radar Name="Medicine Hat" Type="SSR_ModeC" Elevation="300" MaxRange="250" LatLong="+503957.092-1111619.981/" />
+  <Radar Name="Puvirnituq" Type="SSR_ModeC" Elevation="300" MaxRange="250" LatLong="+600322.000-0771635.000/" />
+  <Radar Name="Saskatoon PSR" Type="PRI" Elevation="300" MaxRange="250" LatLong="+625145.210-0920806.480/" />
+  <Radar Name="Sault Ste. Marie" Type="PRI" Elevation="300" MaxRange="400" LatLong="+462846.027-0843117.842/" />
+  <Radar Name="Stony Rapids" Type="SSR_ModeC" Elevation="300" MaxRange="250" LatLong="+591518.313-1054952.752/" />
+  <Radar Name="Thompson" Type="SSR_ModeC" Elevation="300" MaxRange="400" LatLong="+555154.392-0974730.074/" />
+  <Radar Name="Yellowknife" Type="PRI" Elevation="300" MaxRange="250" LatLong="+622743.812-1142818.437/" />
+</Radars>

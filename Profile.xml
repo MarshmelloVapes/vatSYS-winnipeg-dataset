@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<Profile Name="CZWG" FullName="Winnipeg FIR">
+<Profile Name="CZWG - Winnipeg FIR" FullName="Winnipeg FIR">
 	<Version AIRAC="2014" Revision="a" PublishDate="20201231"/>
 	<Servers>
 		<VATSIMStatus url="https://status.vatsim.net/" />

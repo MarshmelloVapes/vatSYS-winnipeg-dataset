@@ -1279,6 +1279,12 @@
 	  <Runway Name="03" Position="+501936.930-1053331.208" />
 	  <Runway Name="21" Position="+501958.810-1053258.520" />
     </Airport>
+	<Airport ICAO="CYQT" FullName="Thunder Bay" Elevation="652">
+      <Runway Name="12" Position="+482229.168-0892016.969" />
+      <Runway Name="30" Position="+482201.891-0891910.048" />
+	  <Runway Name="07" Position="+482212.428-0892001.489" />
+	  <Runway Name="25" Position="+482236.490-0891819.310" />
+    </Airport>
   <Intersections>
     <Point Name="005HP" Type="Fix">+451902.701-1123353.424</Point>
     <Point Name="052AT" Type="Fix">+454953.220-1085636.456</Point>

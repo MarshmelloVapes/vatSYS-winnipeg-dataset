@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <Maps>
-  <Map Type="Ground_APR" Name="ASMGCS_CYXE_APR" Priority="2">
+	<Map Type="Ground_APR" Name="ASMGCS_CYXE_APR" Priority="2">
 		<Infill><Point>
 +520951.308-1064130.515/
 +520952.830-1064123.412/
@@ -385,6 +385,7 @@
 +521026.628-1064054.702/
 +521026.437-1064053.180/
 +521027.397-1064052.880
+</Point></Infill>
 <Infill><Point>
 +521045.154-1064221.779/
 +521044.249-1064221.266/
@@ -403,8 +404,7 @@
 +521042.282-1064305.329/
 +521043.190-1064305.058
 </Point></Infill>
-
-	</Map>
+</Map>
   <Map Type="Ground_RWY" Name="ASMGCS_CYXE_LABELS" CustomColourName="GroundLabel" Priority="1">
     <Label HasLeader="false">
 	    <Point Name="A">+521019.320-1064127.960</Point>

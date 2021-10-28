@@ -11484,7 +11484,7 @@
     <Point Name="YZU" Type="Navaid" NavaidType="VOR" Frequency="112.500">+540844.351-1154749.920</Point>
   </Intersections>
 <SIDSTARs>
-	<!-- CYXE ------- -->
+	<!-- CYXE -->
 	<SID Name="CYXE8" Airport="CYXE" Runways="09">
       <Route Runway="09">YXE</Route>
     </SID>

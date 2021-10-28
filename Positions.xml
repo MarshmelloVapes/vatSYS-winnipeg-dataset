@@ -112,6 +112,7 @@
       <Maps>
         <Map Name="Winnipeg - (CYWG)/ASMGCS_CYWG_TWY" />
 		<Map Name="Winnipeg - (CYWG)/ASMGCS_CYWG_LABELS" />
+		<Map Name="Winnipeg - (CYWG)/ASMGCS_CYWG_RWY" />
 		<Map Name="Winnipeg - (CYWG)/CYWG_BLD" />
       </Maps>
 	  <ControllerInfo>

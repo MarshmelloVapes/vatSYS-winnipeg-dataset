@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <Maps>
-  <Map Type="Ground_RWY" Name="ASMGCS_CYQR_RWY" Priority="1">
+  <Map Type="Ground_RWY" Name="ASMGCS_CYQR_RWY" Priority="2">
   <Infill><Point>+502544.189-1043920.881/
 +502545.688-1043920.888/
 +502545.649-1044056.670/

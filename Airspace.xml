@@ -7,18 +7,46 @@
     <Airport ICAO="CYQT" Position="+482219.189-0891918.142" />
     <Airport ICAO="CYMJ" Position="+501949.001-1053333.001" />
 		<Runway name="11L" DataRunway="11L">
-			<SID Name="CYMJ.7" Default="True" />
+			<SID Name="" Default="True" />
 		</Runway>
 		<Runway name="11R" DataRunway="11L">
-			<SID Name="CYMJ.7" Default="True" />
+			<SID Name="" Default="True" />
 		</Runway>
 		<Runway name="29L" DataRunway="11L">
-			<SID Name="CYMJ.7" Default="True" />
+			<SID Name="" Default="True" />
 		</Runway>
 		<Runway name="29R" DataRunway="11L">
-			<SID Name="CYMJ.7" Default="True" />
+			<SID Name="" Default="True" />
 		</Runway>
     <Airport ICAO="CYQR" Position="+502555.891-1043957.802" />
+		<Runway name="13" DataRunway="13">
+			<SID Name="CYQR2" Default="True" />
+			<STAR Name="ANTOS6" />
+			<STAR Name="GORAK2" />
+			<STAR Name="KEMKA6" />
+			<STAR Name="ODGOV6" />
+		</Runway>
+		<Runway name="31" DataRunway="31">
+			<SID Name="CYQR2" Default="True" />
+			<STAR Name="ANTOS6" />
+			<STAR Name="GORAK2" />
+			<STAR Name="KEMKA6" />
+			<STAR Name="ODGOV6" />
+		</Runway>
+		<Runway name="08" DataRunway="08">
+			<SID Name="CYQR2" Default="True" />
+			<STAR Name="ANTOS6" />
+			<STAR Name="GORAK2" />
+			<STAR Name="KEMKA6" />
+			<STAR Name="ODGOV6" />
+		</Runway>
+		<Runway name="26" DataRunway="26">
+			<SID Name="CYQR2" Default="True" />
+			<STAR Name="ANTOS6" />
+			<STAR Name="GORAK2" />
+			<STAR Name="KEMKA6" />
+			<STAR Name="ODGOV6" />
+		</Runway>
     <Airport ICAO="CYWG" Position="+495436.050-0971424.338">
 		<Runway name="18" DataRunway="18">
 			<SID Name="DUXUS1" Default="True" />
@@ -1284,6 +1312,12 @@
       <Runway Name="30" Position="+482201.891-0891910.048" />
 	  <Runway Name="07" Position="+482212.428-0892001.489" />
 	  <Runway Name="25" Position="+482236.490-0891819.310" />
+    </Airport>
+	<Airport ICAO="CYQR" FullName="Regina" Elevation="1894">
+      <Runway Name="13" Position="+502624.838-1044020.668" />
+      <Runway Name="31" Position="+502526.939-1043858.999" />
+	  <Runway Name="08" Position="+502544.878-1044056.589" />
+	  <Runway Name="26" Position="+502544.900-1043920.851" />
     </Airport>
   <Intersections>
     <Point Name="005HP" Type="Fix">+451902.701-1123353.424</Point>
@@ -11411,6 +11445,72 @@
     <Point Name="YZU" Type="Navaid" NavaidType="VOR" Frequency="112.500">+540844.351-1154749.920</Point>
   </Intersections>
 <SIDSTARs>
+	<!-- CYQR CYQR2 -->
+	<SID Name="CYQR2" Airport="CYQR" Runways="13">
+      <Route Runway="11L">YMJ</Route>
+    </SID>
+	<SID Name="CYQR2" Airport="CYQR" Runways="31">
+      <Route Runway="11R">YMJ</Route>
+    </SID>
+	<SID Name="CYQR2" Airport="CYQR" Runways="08">
+      <Route Runway="29L">YMJ</Route>
+    </SID>
+	<SID Name="CYQR2" Airport="CYQR" Runways="26">
+      <Route Runway="29R">YMJ</Route>
+    </SID>
+		<!-- Runway 08 -->
+		<STAR Name="ANTOS6" Airport="CYQR" Runways="08">
+		  <Route Runway="08">ANTOS MIBMO TOVAB XUBOK</Route>
+		</STAR>
+		<STAR Name="GORAK2" Airport="CYQR" Runways="08">
+		  <Route Runway="08">GORAK GUBEK DENTU MIBMO TOVAB XUBOK</Route>
+		</STAR>
+		<STAR Name="KEMKA6" Airport="CYQR" Runways="08">
+		  <Route Runway="08">KEMKA URTEX DENTU MIBMO TOVAB XUBOK</Route>
+		</STAR>
+		<STAR Name="ODGOV6" Airport="CYQR" Runways="08">
+		  <Route Runway="08">ODGOV MIBMO TOVAB XUBOK</Route>
+		</STAR>
+		<!-- Runway 13 -->
+		<STAR Name="ANTOS6" Airport="CYQR" Runways="13">
+		  <Route Runway="13">ANTOS CHEPS ZRS</Route>
+		</STAR>
+		<STAR Name="GORAK2" Airport="CYQR" Runways="13">
+		  <Route Runway="13">GORAK VEPVO KEBSI NADUP CHEPS ZRS</Route>
+		</STAR>
+		<STAR Name="KEMKA6" Airport="CYQR" Runways="13">
+		  <Route Runway="13">KEMKA KEBSI NADUP CHEPS ZRS</Route>
+		</STAR>
+		<STAR Name="ODGOV6" Airport="CYQR" Runways="13">
+		  <Route Runway="13">ODGOV CHEPS ZRS</Route>
+		</STAR>
+		<!-- Runway 26 -->
+		<STAR Name="ANTOS6" Airport="CYQR" Runways="26">
+		  <Route Runway="26">ANTOS PEMGO OMTUT BOBKU ERDAP TANPU</Route>
+		</STAR>
+		<STAR Name="GORAK2" Airport="CYQR" Runways="26">
+		  <Route Runway="26">GORAK VEPVO ERDAP TANPU</Route>
+		</STAR>
+		<STAR Name="KEMKA6" Airport="CYQR" Runways="26">
+		  <Route Runway="26">KEMKA ERDAP TANPU</Route>
+		</STAR>
+		<STAR Name="ODGOV6" Airport="CYQR" Runways="26">
+		  <Route Runway="26">ODGOV SEGEN OMTUT BOBKU ERDAP TANPU</Route>
+		</STAR>
+		<!-- Runway 31 -->
+		<STAR Name="ANTOS6" Airport="CYQR" Runways="31">
+		  <Route Runway="31">ANTOS PEMGO SEBIX IGVEX MUVAN ROSLI</Route>
+		</STAR>
+		<STAR Name="GORAK2" Airport="CYQR" Runways="31">
+		  <Route Runway="31">GORAK GUBEK MUVAN ROSLI</Route>
+		</STAR>
+		<STAR Name="KEMKA6" Airport="CYQR" Runways="31">
+		  <Route Runway="31">KEMKA URTEX MUVAN ROSLI</Route>
+		</STAR>
+		<STAR Name="ODGOV6" Airport="CYQR" Runways="31">
+		  <Route Runway="31">ODGOV BONAV SEBIX IGVEX MUVAN ROSLI</Route>
+		</STAR>
+
 	<!-- CYMJ CYMJ.7 -->
 	<SID Name="CYMJ.7" Airport="CYMJ" Runways="11L">
       <Route Runway="11L">YMJ</Route>
@@ -11424,6 +11524,7 @@
 	<SID Name="CYMJ.7" Airport="CYMJ" Runways="29L">
       <Route Runway="29R">YMJ</Route>
     </SID>
+	
 	<!-- CYWG RUNWAY 18 -->
 	<SID Name="DUXUS1" Airport="CYWG" Runways="18">
       <Route Runway="18">AVOTU DUXUS PEPKA</Route>

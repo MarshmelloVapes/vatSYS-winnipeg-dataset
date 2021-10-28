@@ -90,6 +90,39 @@
 		</Runway>
 	</Airport>
     <Airport ICAO="CYXE" Position="+521015.470-1064159.849" />
+		<Runway name="09" DataRunway="09">
+			<SID Name="NOXOG1" Default="True"/>
+			<SID Name="CYXE8" />
+			<STAR Name="CAREN3" />
+			<STAR Name="DUNEM6" />
+			<STAR Name="KEBRU5" />
+			<STAR Name="MAVOB6" />
+		</Runway>
+		<Runway name="15" DataRunway="15">
+			<SID Name="MOVOT1.LEXEV"/>
+			<SID Name="MOVOT1.OMLUV" />
+			<SID Name="CYXE8" Default="True" />
+			<STAR Name="CAREN3" />
+			<STAR Name="DUNEM6" />
+			<STAR Name="KEBRU5" />
+			<STAR Name="MAVOB6" />
+		</Runway>
+		<Runway name="27" DataRunway="27">
+			<SID Name="ERDED1" Default="True"/>
+			<SID Name="CYXE8" />
+			<STAR Name="CAREN3" />
+			<STAR Name="DUNEM6" />
+			<STAR Name="KEBRU5" />
+			<STAR Name="MAVOB6" />
+		</Runway>
+		<Runway name="33" DataRunway="33">
+			<SID Name="UDKUV1" Default="True"/>
+			<SID Name="CYXE8" />
+			<STAR Name="CAREN3" />
+			<STAR Name="DUNEM6" />
+			<STAR Name="KEBRU5" />
+			<STAR Name="MAVOB6" />
+		</Runway>
     <Airport ICAO="CYYQ" Position="+584420.620-0940358.939" />
     <Airport ICAO="01WI" Position="+440036.000-0902321.001" />
     <Airport ICAO="07MT" Position="+482515.989-1063139.731" />
@@ -1318,6 +1351,12 @@
       <Runway Name="31" Position="+502526.939-1043858.999" />
 	  <Runway Name="08" Position="+502544.878-1044056.589" />
 	  <Runway Name="26" Position="+502544.900-1043920.851" />
+    </Airport>
+	<Airport ICAO="CYXE" FullName="Saskatoon" Elevation="1653">
+      <Runway Name="15" Position="+521044.371-1064220.498" />
+      <Runway Name="33" Position="+520946.558-1064148.181" />
+	  <Runway Name="09" Position="+521042.718-1064305.181" />
+	  <Runway Name="27" Position="+521027.080-1064054.508" />
     </Airport>
   <Intersections>
     <Point Name="005HP" Type="Fix">+451902.701-1123353.424</Point>
@@ -11445,18 +11484,102 @@
     <Point Name="YZU" Type="Navaid" NavaidType="VOR" Frequency="112.500">+540844.351-1154749.920</Point>
   </Intersections>
 <SIDSTARs>
+	<!-- CYXE ------- -->
+	<SID Name="CYXE8" Airport="CYXE" Runways="09">
+      <Route Runway="09">YXE</Route>
+    </SID>
+	<SID Name="NOXOG1" Airport="CYXE" Runways="09">
+      <Route Runway="09">NOXOG ATURU</Route>
+    </SID>
+	
+	<SID Name="MOVOT1.LEXEV" Airport="CYXE" Runways="15">
+      <Route Runway="15">MOVOT VITEB LEXEV</Route>
+    </SID>
+	<SID Name="MOVOT1.OMLUV" Airport="CYXE" Runways="15">
+      <Route Runway="15">MOVOT OMLUV</Route>
+    </SID>
+	<SID Name="CYXE8" Airport="CYXE" Runways="15">
+      <Route Runway="15">YXE</Route>
+    </SID>
+	
+	<SID Name="CYXE8" Airport="CYXE" Runways="27">
+      <Route Runway="27">YXE</Route>
+    </SID>
+	<SID Name="ERDED1" Airport="CYXE" Runways="27">
+      <Route Runway="27">ERDED TABAK</Route>
+    </SID>
+	
+	<SID Name="CYXE8" Airport="CYXE" Runways="33">
+      <Route Runway="33">YXE</Route>
+    </SID>
+	<SID Name="UDKUV1" Airport="CYXE" Runways="33">
+      <Route Runway="33">UDKUV KESGA</Route>
+    </SID>
+		<!-- Runway 09 -->
+		<STAR Name="CAREN3" Airport="CYXE" Runways="09">
+		  <Route Runway="09">CAREN MISIV SATIL TABAK ERDED</Route>
+		</STAR>
+		<STAR Name="DUNEM6" Airport="CYXE" Runways="09">
+		  <Route Runway="09">DUNEM VOLUG VIDNA SATIL TABAK ERDED</Route>
+		</STAR>
+		<STAR Name="KEBRU5" Airport="CYXE" Runways="09">
+		  <Route Runway="09">KEBRU TABAK ERDED</Route>
+		</STAR>
+		<STAR Name="MAVOB6" Airport="CYXE" Runways="09">
+		  <Route Runway="09">MAVOB PERBA TABAK ERDED</Route>
+		</STAR>
+		<!-- Runway 15 -->
+		<STAR Name="CAREN3" Airport="CYXE" Runways="15">
+		  <Route Runway="15">CAREN EBLAG APDIM KESGA UDKUV</Route>
+		</STAR>
+		<STAR Name="DUNEM6" Airport="CYXE" Runways="15">
+		  <Route Runway="15">DUNEM KELMI VERLI KESGA UDKUV</Route>
+		</STAR>
+		<STAR Name="KEBRU5" Airport="CYXE" Runways="15">
+		  <Route Runway="15">KEBRU KESGA UDKUV</Route>
+		</STAR>
+		<STAR Name="MAVOB6" Airport="CYXE" Runways="15">
+		  <Route Runway="15">MAVOB UKSUV APDIM KESGA UDKUV</Route>
+		</STAR>
+		<!-- Runway 27 -->
+		<STAR Name="CAREN3" Airport="CYXE" Runways="27">
+		  <Route Runway="27">CAREN OMPIN TALTI PIBNU ATURU NOXOG</Route>
+		</STAR>
+		<STAR Name="DUNEM6" Airport="CYXE" Runways="27">
+		  <Route Runway="27">DUNEM ATURU NOXOG</Route>
+		</STAR>
+		<STAR Name="KEBRU5" Airport="CYXE" Runways="27">
+		  <Route Runway="27">KEBRU AVSIG TAPSO PIKRA ATURU NOXOG</Route>
+		</STAR>
+		<STAR Name="MAVOB6" Airport="CYXE" Runways="27">
+		  <Route Runway="27">MAVOB TALTI PIBNU ATURU NOXOG</Route>
+		</STAR>
+		<!-- Runway 33 -->
+		<STAR Name="CAREN3" Airport="CYXE" Runways="33">
+		  <Route Runway="33">CAREN OMPIN IRLON ESVOX TAMAN IKMER</Route>
+		</STAR>
+		<STAR Name="DUNEM6" Airport="CYXE" Runways="33">
+		  <Route Runway="33">DUNEM ESVOX TAMAN IKMER</Route>
+		</STAR>
+		<STAR Name="KEBRU5" Airport="CYXE" Runways="33">
+		  <Route Runway="33">KEBRU MURPA SETLO IRLON ESVOX TAMAN IKMER</Route>
+		</STAR>
+		<STAR Name="MAVOB6" Airport="CYXE" Runways="33">
+		  <Route Runway="33">MAVOB IRLON ESVOX TAMAN IKMER</Route>
+		</STAR>
+
 	<!-- CYQR CYQR2 -->
 	<SID Name="CYQR2" Airport="CYQR" Runways="13">
-      <Route Runway="11L">YMJ</Route>
+      <Route Runway="13">YMJ</Route>
     </SID>
 	<SID Name="CYQR2" Airport="CYQR" Runways="31">
-      <Route Runway="11R">YMJ</Route>
+      <Route Runway="31">YMJ</Route>
     </SID>
 	<SID Name="CYQR2" Airport="CYQR" Runways="08">
-      <Route Runway="29L">YMJ</Route>
+      <Route Runway="08">YMJ</Route>
     </SID>
 	<SID Name="CYQR2" Airport="CYQR" Runways="26">
-      <Route Runway="29R">YMJ</Route>
+      <Route Runway="26">YMJ</Route>
     </SID>
 		<!-- Runway 08 -->
 		<STAR Name="ANTOS6" Airport="CYQR" Runways="08">

@@ -16,6 +16,8 @@
 	  <Map Name="Thunder Bay - (CYQT)/CYQT_AIRSPACE_E" />
 	  <Map Name="Regina - (CYQR)/CYQR_AIRSPACE_CONTROLZONE" />
 	  <Map Name="Regina - (CYQR)/CYQR_AIRSPACE_E" />
+	  <Map Name="Saskatoon - (CYXE)/CYXE_AIRSPACE_CONTROLZONE" />
+	  <Map Name="Saskatoon - (CYXE)/CYXE_AIRSPACE_E" />
     </Maps>
     <Strips Mode="State" Sort="Time">
       <Window Type="State" State="Jurisdiction" Visible="true" />
@@ -150,6 +152,19 @@
         <Map Name="Regina - (CYQR)/ASMGCS_CYQR_LABELS" />
 		<Map Name="Regina - (CYQR)/ASMGCS_CYQR_RWY" />
 		<Map Name="Regina - (CYQR)/ASMGCS_CYQR_APR" />
+		<Map Name="CZWG_GEO" />
+      </Maps>
+	  <ControllerInfo>
+	    <Line>Thanks for flying with the Winnipeg FIR!</Line>
+	    <Line>Questions, comments or feedback? We want to hear it!</Line>
+	    <Line>Visit us at winnipegfir.ca.</Line>
+      </ControllerInfo>
+    </Position>
+	<Position Name="CYXE" Type="ASMGCS" ASMGCSAirport="CYXE" DefaultCenter="+521015.470-1064159.848" DefaultRange="2">
+      <Maps>
+        <Map Name="Saskatoon - (CYXE)/ASMGCS_CYXE_LABELS" />
+		<Map Name="Saskatoon - (CYXE)/ASMGCS_CYXE_RWY" />
+		<Map Name="Saskatoon - (CYXE)/ASMGCS_CYXE_APR" />
 		<Map Name="CZWG_GEO" />
       </Maps>
 	  <ControllerInfo>

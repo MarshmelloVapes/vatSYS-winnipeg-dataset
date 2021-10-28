@@ -31,6 +31,23 @@
     <Rule Departure="CYMJ" Destination="C\w{3}"/>
     <Codes Start="0100" End="0477"/>
   </Bin>
+  <Bin>
+    <Rule Departure="CYQT" Destination="C\w{3}"/>
+		<Codes Start="5201" End="5247"/>
+		<Codes Start="7140" End="7157"/>
+		<Codes Start="7100" End="7137"/>
+  </Bin>
+  <Bin>
+    <Rule Departure="CYXE" Destination="C\w{3}"/>
+		<Codes Start="5301" End="5347"/>
+		<Codes Start="1140" End="1157"/>
+		<Codes Start="1100" End="1137"/>
+  </Bin>
+  <Bin>
+    <Rule Departure="CYQR" Destination="C\w{3}"/>
+		<Codes Start="5250" End="5277"/>
+		<Codes Start="2040" End="2057"/>
+  </Bin>
   <!-- Transit Flights -->
   <Bin>
 	<Codes Start="1001" End="1077"/>

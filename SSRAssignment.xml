@@ -28,6 +28,10 @@
     <Codes Start="4701" End="4747"/>
   </Bin>
   <Bin>
+    <Rule Departure="CYAV" Destination="C\w{3}"/>
+    <Codes Start="4107" End="4177"/>
+  </Bin>
+  <Bin>
     <Rule Departure="CYMJ" Destination="C\w{3}"/>
     <Codes Start="0100" End="0477"/>
   </Bin>
@@ -48,14 +52,12 @@
 		<Codes Start="5250" End="5277"/>
 		<Codes Start="2040" End="2057"/>
   </Bin>
-  <!-- Transit Flights -->
+  <!-- Transit Flights / Make these match sector control area? -->
   <Bin>
-	<Codes Start="1001" End="1077"/>
-	<Codes Start="1101" End="1177"/>
-	<Codes Start="1201" End="1227"/>
-    <Codes Start="1301" End="1377"/>
-	<Codes Start="1401" End="1477"/>
-	<Codes Start="1501" End="1567"/>
-	<Codes Start="1240" End="1277"/>
+	<Codes Start="0626" End="0677"/>
+	<Codes Start="0601" End="0625"/>
+	<Codes Start="5120" End="5177"/>
+	<Codes Start="1401" End="1425"/>
+    <Codes Start="1426" End="1477"/>
   </Bin>
 </SSRAssignment>

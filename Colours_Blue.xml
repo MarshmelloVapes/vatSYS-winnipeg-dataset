@@ -29,6 +29,13 @@
 	<G>255</G>
 	<B>255</B>
   </Colour>
+  <Colour id="Custom">
+	<Use>Custom runway colour</Use>
+	<Name>RUNWAYS</Name>
+	<R>130</R>
+	<G>146</G>
+	<B>146</B>
+  </Colour>
   <!-- Default Colours -->
   
   <Colour id="GenericText">

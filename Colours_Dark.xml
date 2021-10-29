@@ -29,6 +29,13 @@
 	<G>255</G>
 	<B>255</B>
   </Colour>
+  <Colour id="Custom">
+	<Use>Custom runway colour</Use>
+	<Name>RUNWAYS</Name>
+	<R>130</R>
+	<G>146</G>
+	<B>146</B>
+  </Colour>
   <!-- Default Colours -->
   <Colour id="GenericText">
     <Use>Window Text</Use>
@@ -230,9 +237,9 @@
   <Colour id="GroundBackground">
     <Use>A-SMGCS Background</Use>
     <Name>Grey</Name>
-    <R>0</R>
-    <G>98</G>
-    <B>123</B>
+    <R>12</R>
+    <G>12</G>
+    <B>12</B>
   </Colour>
   <Colour id="Jurisdiction">
     <Use>Jurisdiction</Use>

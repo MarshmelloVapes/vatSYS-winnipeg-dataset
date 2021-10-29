@@ -410,7 +410,10 @@
 	  <Point Name="K">+502549.310-1043922.690</Point>
 	  <Point Name="M">+502604.770-1043944.290</Point>
 	  <Point Name="P">+502554.260-1044000.640</Point>
-	  
+	</Label>
+  </Map>
+  <Map Type="Ground_RWY" Name="ASMGCS_CYQR_LABELS_RWY" CustomColourName="GroundLabel" Priority="1">
+    <Label HasLeader="false">
 	  <Point Name="13">+502624.838-1044020.668</Point>
 	  <Point Name="31">+502526.939-1043858.999</Point>
 	  <Point Name="08">+502544.878-1044056.589</Point>

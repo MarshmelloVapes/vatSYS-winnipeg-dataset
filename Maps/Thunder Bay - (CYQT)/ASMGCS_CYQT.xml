@@ -599,7 +599,10 @@
 	  <Point Name="F">+482226.840-0891957.640</Point>
 	  <Point Name="G">+482228.140-0891905.990</Point>
 	  <Point Name="H">+482233.078-0891900.123</Point>
-	  
+	</Label>
+  </Map>
+  <Map Type="Ground_RWY" Name="ASMGCS_CYQT_LABELS_RWY" CustomColourName="GroundLabel" Priority="1">
+    <Label HasLeader="false">
 	  <Point Name="12">+482229.168-0892016.969</Point>
 	  <Point Name="30">+482201.891-0891910.048</Point>
 	  <Point Name="07">+482212.428-0892001.489</Point>

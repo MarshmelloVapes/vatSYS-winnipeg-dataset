@@ -112,6 +112,7 @@
       <Maps>
         <Map Name="Winnipeg - (CYWG)/ASMGCS_CYWG_TWY" />
 		<Map Name="Winnipeg - (CYWG)/ASMGCS_CYWG_LABELS" />
+		<Map Name="Winnipeg - (CYWG)/ASMGCS_CYWG_LABELS_RWY" />
 		<Map Name="Winnipeg - (CYWG)/ASMGCS_CYWG_RWY" />
 		<Map Name="Winnipeg - (CYWG)/CYWG_BLD" />
       </Maps>
@@ -125,6 +126,7 @@
       <Maps>
         <Map Name="Moose Jaw - (CYMJ)/ASMGCS_CYMJ_TWY" />
 		<Map Name="Moose Jaw - (CYMJ)/ASMGCS_CYMJ_LABELS" />
+		<Map Name="Moose Jaw - (CYMJ)/ASMGCS_CYMJ_LABELS_RWY" />
 		<Map Name="Moose Jaw - (CYMJ)/ASMGCS_CYMJ_BLD" />
 		<Map Name="Moose Jaw - (CYMJ)/ASMGCS_CYMJ_APR" />
 		<Map Name="Moose Jaw - (CYMJ)/ASMGCS_CYMJ_RWY" />
@@ -138,6 +140,7 @@
 	<Position Name="CYQT" Type="ASMGCS" ASMGCSAirport="CYQT" DefaultCenter="+482219.189-0891918.141" DefaultRange="2">
       <Maps>
         <Map Name="Thunder Bay - (CYQT)/ASMGCS_CYQT_LABELS" />
+		<Map Name="Thunder Bay - (CYQT)/ASMGCS_CYQT_LABELS_RWY" />
 		<Map Name="Thunder Bay - (CYQT)/ASMGCS_CYQT_RWY" />
 		<Map Name="Thunder Bay - (CYQT)/ASMGCS_CYQT_APR" />
 		<Map Name="CZWG_GEO" />
@@ -151,6 +154,7 @@
 	<Position Name="CYQR" Type="ASMGCS" ASMGCSAirport="CYQR" DefaultCenter="+502555.891-1043957.801" DefaultRange="2">
       <Maps>
         <Map Name="Regina - (CYQR)/ASMGCS_CYQR_LABELS" />
+		<Map Name="Regina - (CYQR)/ASMGCS_CYQR_LABELS_RWY" />
 		<Map Name="Regina - (CYQR)/ASMGCS_CYQR_RWY" />
 		<Map Name="Regina - (CYQR)/ASMGCS_CYQR_APR" />
 		<Map Name="CZWG_GEO" />
@@ -164,8 +168,23 @@
 	<Position Name="CYXE" Type="ASMGCS" ASMGCSAirport="CYXE" DefaultCenter="+521015.470-1064159.848" DefaultRange="2">
       <Maps>
         <Map Name="Saskatoon - (CYXE)/ASMGCS_CYXE_LABELS" />
+		<Map Name="Saskatoon - (CYXE)/ASMGCS_CYXE_LABELS_RWY" />
 		<Map Name="Saskatoon - (CYXE)/ASMGCS_CYXE_RWY" />
 		<Map Name="Saskatoon - (CYXE)/ASMGCS_CYXE_APR" />
+		<Map Name="CZWG_GEO" />
+      </Maps>
+	  <ControllerInfo>
+	    <Line>Thanks for flying with the Winnipeg FIR!</Line>
+	    <Line>Questions, comments or feedback? We want to hear it!</Line>
+	    <Line>Visit us at winnipegfir.ca.</Line>
+      </ControllerInfo>
+    </Position>
+	<Position Name="CYAV" Type="ASMGCS" ASMGCSAirport="CYAV" DefaultCenter="+500322.478-0970157.118" DefaultRange="2">
+      <Maps>
+        <Map Name="St. Andrews Airport - (CYAV)/ASMGCS_CYAV_LABELS" />
+		<Map Name="St. Andrews Airport - (CYAV)/ASMGCS_CYAV_LABELS_RWY" />
+		<Map Name="St. Andrews Airport - (CYAV)/ASMGCS_CYAV_RWY" />
+		<Map Name="St. Andrews Airport - (CYAV)/ASMGCS_CYAV_APR" />
 		<Map Name="CZWG_GEO" />
       </Maps>
 	  <ControllerInfo>

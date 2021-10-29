@@ -2,21 +2,49 @@
 <Airspace>
   <Airports>
     <Airport ICAO="CYAV" Position="+500322.478-0970157.119" />
+		<Runway name="04" DataRunway="04">
+			<SID Name="SIMGU" Default="True" />
+		</Runway>
+		<Runway name="13" DataRunway="13">
+			<SID Name="SIMGU" Default="True" />
+		</Runway>
+		<Runway name="18" DataRunway="18">
+			<SID Name="SIMGU" Default="True" />
+		</Runway>
+		<Runway name="18" DataRunway="18">
+			<SID Name="SIMGU" Default="True" />
+		</Runway>
+		<Runway name="31" DataRunway="31">
+			<SID Name="SIMGU" Default="True" />
+		</Runway>
+		<Runway name="36" DataRunway="36">
+			<SID Name="SIMGU" Default="True" />
+		</Runway>
     <Airport ICAO="CYBR" Position="+495436.000-0995708.179" />
     <Airport ICAO="CYPG" Position="+495411.282-0981626.080" />
     <Airport ICAO="CYQT" Position="+482219.189-0891918.142" />
     <Airport ICAO="CYMJ" Position="+501949.001-1053333.001" />
 		<Runway name="11L" DataRunway="11L">
-			<SID Name="" Default="True" />
+			<SID Name="CYMJ7" Default="True" />
+			<STAR Name="DUKPI.ILS.Z" />
+			<STAR Name="EBLEP.ILS.Z" />
+			<STAR Name="BESEN.RNAV" />
+			<STAR Name="DUKPI.RNAV" />
+			<STAR Name="EBLEP.RNAV" />
 		</Runway>
-		<Runway name="11R" DataRunway="11L">
-			<SID Name="" Default="True" />
+		<Runway name="29R" DataRunway="29R">
+			<SID Name="CYMJ7" Default="True" />
+			<STAR Name="IPRUNxILSxZ" />
+			<STAR Name="LIDANxILSxZ" />
+			<STAR Name="IGTOLxRNAV" />
+			<STAR Name="IPRUNxRNAV" />
+			<STAR Name="LIDANxRNAV" />
 		</Runway>
-		<Runway name="29L" DataRunway="11L">
-			<SID Name="" Default="True" />
+		<Runway name="11R" DataRunway="11R">
+			<SID Name="CYMJ7" Default="True" />
 		</Runway>
-		<Runway name="29R" DataRunway="11L">
-			<SID Name="" Default="True" />
+		<Runway name="29L" DataRunway="29L">
+			<SID Name="CYMJ7" Default="True" />
 		</Runway>
     <Airport ICAO="CYQR" Position="+502555.891-1043957.802" />
 		<Runway name="13" DataRunway="13">
@@ -1357,6 +1385,14 @@
       <Runway Name="33" Position="+520946.558-1064148.181" />
 	  <Runway Name="09" Position="+521042.718-1064305.181" />
 	  <Runway Name="27" Position="+521027.080-1064054.508" />
+    </Airport>
+	<Airport ICAO="CYAV" FullName="Saskatoon" Elevation="760">
+      <Runway Name="18" Position="+500341.860-0970213.520" />
+      <Runway Name="36" Position="+500312.538-0970219.809" />
+	  <Runway Name="13" Position="+500341.641-0970208.170" />
+	  <Runway Name="31" Position="+500321.499-0970134.431" />
+	  <Runway Name="04" Position="+500303.099-0970207.101" />
+	  <Runway Name="22" Position="+500323.198-0970135.900" />
     </Airport>
   <Intersections>
     <Point Name="005HP" Type="Fix">+451902.701-1123353.424</Point>
@@ -11484,6 +11520,27 @@
     <Point Name="YZU" Type="Navaid" NavaidType="VOR" Frequency="112.500">+540844.351-1154749.920</Point>
   </Intersections>
 <SIDSTARs>
+	<!-- CYAV -->
+	<SID Name="CYAV6" Airport="CYAV" Runways="04">
+      <Route Runway="04">SIMGU</Route>
+    </SID>
+	<SID Name="CYAV6" Airport="CYAV" Runways="13">
+      <Route Runway="13">SIMGU</Route>
+    </SID>
+	<SID Name="CYAV6" Airport="CYAV" Runways="18">
+      <Route Runway="18">SIMGU</Route>
+    </SID>
+	<SID Name="CYAV6" Airport="CYAV" Runways="22">
+      <Route Runway="22">SIMGU</Route>
+    </SID>
+	<SID Name="CYAV6" Airport="CYAV" Runways="31">
+      <Route Runway="31">SIMGU</Route>
+    </SID>
+	<SID Name="CYAV6" Airport="CYAV" Runways="36">
+      <Route Runway="36">SIMGU</Route>
+    </SID>
+	
+	
 	<!-- CYXE -->
 	<SID Name="CYXE8" Airport="CYXE" Runways="09">
       <Route Runway="09">YXE</Route>
@@ -11647,6 +11704,38 @@
 	<SID Name="CYMJ.7" Airport="CYMJ" Runways="29L">
       <Route Runway="29R">YMJ</Route>
     </SID>
+		<!-- CYMJ 11L -->
+		<STAR Name="DUKPI.ILS.Z" Airport="CYMJ" Runways="11L">
+			<Route Runway="11L">DUKPI BESEN NADAG</Route>
+		</STAR>
+		<STAR Name="EBLEP.ILS.Z" Airport="CYMJ" Runways="11L">
+			<Route Runway="11L">EBLEP BESEN NADAG</Route>
+		</STAR>
+		<STAR Name="BESEN.RNAV" Airport="CYMJ" Runways="11L">
+			<Route Runway="11L">BESEN NADAG</Route>
+		</STAR>
+		<STAR Name="DUKPI.RNAV" Airport="CYMJ" Runways="11L">
+			<Route Runway="11L">DUKPI BESEN NADAG</Route>
+		</STAR>
+		<STAR Name="EBLEP.RNAV" Airport="CYMJ" Runways="11L">
+			<Route Runway="11L">EBLEP BESEN NADAG</Route>
+		</STAR>
+		<!-- CYMJ 29R -->
+		<STAR Name="IPRUN.ILS.Z" Airport="CYMJ" Runways="29R">
+			<Route Runway="29R">IPRUN IGTOL GOXAG</Route>
+		</STAR>
+		<STAR Name="LIDAN.ILS.Z" Airport="CYMJ" Runways="29R">
+			<Route Runway="29R">LIDAN IGTOL GOXAG</Route>
+		</STAR>
+		<STAR Name="IGTOL.RNAV" Airport="CYMJ" Runways="29R">
+			<Route Runway="29R">IGTOL GOXAG</Route>
+		</STAR>
+		<STAR Name="IPRUN.RNAV" Airport="CYMJ" Runways="29R">
+			<Route Runway="29R">IPRUN IGTOL GOXAG</Route>
+		</STAR>
+		<STAR Name="LIDAN.RNAV" Airport="CYMJ" Runways="29R">
+			<Route Runway="29R">LIDAN IGTOL GOXAG</Route>
+		</STAR>
 	
 	<!-- CYWG RUNWAY 18 -->
 	<SID Name="DUXUS1" Airport="CYWG" Runways="18">

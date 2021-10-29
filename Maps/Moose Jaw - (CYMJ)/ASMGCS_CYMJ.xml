@@ -9648,7 +9648,10 @@
 	  <Point Name="D">+502002.210-1053303.880</Point>
 	  <Point Name="D">+501946.760-1053237.310</Point>
 	  <Point Name="F">+502004.940-1053345.960</Point>
-	  
+	</Label>
+  </Map>
+  <Map Type="Ground_RWY" Name="ASMGCS_CYMJ_LABELS_RWY" CustomColourName="GroundLabel" Priority="1">
+    <Label HasLeader="false">
 	  <Point Name="11R">+501955.988-1053428.329</Point>
 	  <Point Name="11L">+502016.389-1053429.168</Point>
 	  <Point Name="29L">+501921.608-1053249.768</Point>

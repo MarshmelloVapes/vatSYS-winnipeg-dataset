@@ -415,7 +415,10 @@
 		<Point Name="B">+520954.384-1064139.000</Point>
 		<Point Name="C">+521015.230-1064053.510</Point>
 		<Point Name="F">+521021.410-1064056.870</Point>
-		
+	</Label>
+  </Map>
+  <Map Type="Ground_RWY" Name="ASMGCS_CYXE_LABELS_RWY" CustomColourName="GroundLabel" Priority="1">
+    <Label HasLeader="false">
 		<Point Name="15">+521044.371-1064220.498</Point>
 		<Point Name="33">+520946.558-1064148.181</Point>
 		<Point Name="09">+521042.718-1064305.181</Point>

@@ -10314,7 +10314,10 @@
 	  <Point Name="W">+495422.370-0971350.630</Point>
 	  <Point Name="V">+495407.610-0971405.860</Point>
 	  <Point Name="V">+495405.880-0971353.260</Point>
-	  
+	</Label>
+  </Map>
+  <Map Type="Ground_RWY" Name="ASMGCS_CYWG_LABELS_RWY" CustomColourName="GroundLabel" Priority="1">
+    <Label HasLeader="false">
 	  <Point Name="18">+495529.701-0971405.899</Point>
 	  <Point Name="36">+495342.388-0971430.771</Point>
 	  <Point Name="13">+495446.900-0971508.369</Point>

@@ -11569,14 +11569,14 @@
       <Route Runway="09">YXE</Route>
     </SID>
 	<SID Name="NOXOG1" Airport="CYXE" Runways="09">
-      <Route Runway="09">NOXOG ATURU</Route>
-    </SID>
+      <Route Runway="09">NOXOG/ATURU</Route>
+   </SID>
 	
 	<SID Name="MOVOT1.LEXEV" Airport="CYXE" Runways="15">
-      <Route Runway="15">MOVOT VITEB LEXEV</Route>
+      <Route Runway="15">MOVOT/VITEB/LEXEV</Route>
     </SID>
 	<SID Name="MOVOT1.OMLUV" Airport="CYXE" Runways="15">
-      <Route Runway="15">MOVOT OMLUV</Route>
+      <Route Runway="15">MOVOT/OMLUV</Route>
     </SID>
 	<SID Name="CYXE8" Airport="CYXE" Runways="15">
       <Route Runway="15">YXE</Route>
@@ -11586,66 +11586,66 @@
       <Route Runway="27">YXE</Route>
     </SID>
 	<SID Name="ERDED1" Airport="CYXE" Runways="27">
-      <Route Runway="27">ERDED TABAK</Route>
+      <Route Runway="27">ERDED/TABAK</Route>
     </SID>
 	
 	<SID Name="CYXE8" Airport="CYXE" Runways="33">
       <Route Runway="33">YXE</Route>
     </SID>
 	<SID Name="UDKUV1" Airport="CYXE" Runways="33">
-      <Route Runway="33">UDKUV KESGA</Route>
+      <Route Runway="33">UDKUV/KESGA</Route>
     </SID>
 		<!-- Runway 09 -->
 		<STAR Name="CAREN3" Airport="CYXE" Runways="09">
-		  <Route Runway="09">CAREN MISIV SATIL TABAK ERDED</Route>
+		  <Route Runway="09">CAREN/MISIV/SATIL/TABAK/ERDED</Route>
 		</STAR>
 		<STAR Name="DUNEM6" Airport="CYXE" Runways="09">
-		  <Route Runway="09">DUNEM VOLUG VIDNA SATIL TABAK ERDED</Route>
+		  <Route Runway="09">DUNEM/VOLUG/VIDNA/SATIL/TABAK/ERDED</Route>
 		</STAR>
 		<STAR Name="KEBRU5" Airport="CYXE" Runways="09">
-		  <Route Runway="09">KEBRU TABAK ERDED</Route>
+		  <Route Runway="09">KEBRU/TABAK/ERDED</Route>
 		</STAR>
 		<STAR Name="MAVOB6" Airport="CYXE" Runways="09">
-		  <Route Runway="09">MAVOB PERBA TABAK ERDED</Route>
+		  <Route Runway="09">MAVOB/PERBA/TABAK/ERDED</Route>
 		</STAR>
 		<!-- Runway 15 -->
 		<STAR Name="CAREN3" Airport="CYXE" Runways="15">
-		  <Route Runway="15">CAREN EBLAG APDIM KESGA UDKUV</Route>
+		  <Route Runway="15">CAREN/EBLAG/APDIM/KESGA/UDKUV</Route>
 		</STAR>
 		<STAR Name="DUNEM6" Airport="CYXE" Runways="15">
-		  <Route Runway="15">DUNEM KELMI VERLI KESGA UDKUV</Route>
+		  <Route Runway="15">DUNEM/KELMI/VERLI/KESGA/UDKUV</Route>
 		</STAR>
 		<STAR Name="KEBRU5" Airport="CYXE" Runways="15">
-		  <Route Runway="15">KEBRU KESGA UDKUV</Route>
+		  <Route Runway="15">KEBRU/KESGA/UDKUV</Route>
 		</STAR>
 		<STAR Name="MAVOB6" Airport="CYXE" Runways="15">
-		  <Route Runway="15">MAVOB UKSUV APDIM KESGA UDKUV</Route>
+		  <Route Runway="15">MAVOB/UKSUV/APDIM/KESGA/UDKUV</Route>
 		</STAR>
 		<!-- Runway 27 -->
 		<STAR Name="CAREN3" Airport="CYXE" Runways="27">
-		  <Route Runway="27">CAREN OMPIN TALTI PIBNU ATURU NOXOG</Route>
+		  <Route Runway="27">CAREN/OMPIN/TALTI/PIBNU/ATURU/NOXOG</Route>
 		</STAR>
 		<STAR Name="DUNEM6" Airport="CYXE" Runways="27">
-		  <Route Runway="27">DUNEM ATURU NOXOG</Route>
+		  <Route Runway="27">DUNEM/ATURU/NOXOG</Route>
 		</STAR>
 		<STAR Name="KEBRU5" Airport="CYXE" Runways="27">
-		  <Route Runway="27">KEBRU AVSIG TAPSO PIKRA ATURU NOXOG</Route>
+		  <Route Runway="27">KEBRU/AVSIG/TAPSO/PIKRA/ATURU/NOXOG</Route>
 		</STAR>
 		<STAR Name="MAVOB6" Airport="CYXE" Runways="27">
-		  <Route Runway="27">MAVOB TALTI PIBNU ATURU NOXOG</Route>
+		  <Route Runway="27">MAVOB/TALTI/PIBNU/ATURU/NOXOG</Route>
 		</STAR>
 		<!-- Runway 33 -->
 		<STAR Name="CAREN3" Airport="CYXE" Runways="33">
-		  <Route Runway="33">CAREN OMPIN IRLON ESVOX TAMAN IKMER</Route>
+		  <Route Runway="33">CAREN/OMPIN/IRLON/ESVOX/TAMAN/IKMER</Route>
 		</STAR>
 		<STAR Name="DUNEM6" Airport="CYXE" Runways="33">
-		  <Route Runway="33">DUNEM ESVOX TAMAN IKMER</Route>
+		  <Route Runway="33">DUNEM/ESVOX/TAMAN/IKMER</Route>
 		</STAR>
 		<STAR Name="KEBRU5" Airport="CYXE" Runways="33">
-		  <Route Runway="33">KEBRU MURPA SETLO IRLON ESVOX TAMAN IKMER</Route>
+		  <Route Runway="33">KEBRU/MURPA/SETLO/IRLON/ESVOX/TAMAN/IKMER</Route>
 		</STAR>
 		<STAR Name="MAVOB6" Airport="CYXE" Runways="33">
-		  <Route Runway="33">MAVOB IRLON ESVOX TAMAN IKMER</Route>
+		  <Route Runway="33">MAVOB/IRLON/ESVOX/TAMAN/IKMER</Route>
 		</STAR>
 
 	<!-- CYQR CYQR2 -->
@@ -11663,130 +11663,131 @@
     </SID>
 		<!-- Runway 08 -->
 		<STAR Name="ANTOS6" Airport="CYQR" Runways="08">
-		  <Route Runway="08">ANTOS MIBMO TOVAB XUBOK</Route>
+		  <Route Runway="08">ANTOS/MIBMO/TOVAB/XUBOK</Route>
 		</STAR>
 		<STAR Name="GORAK2" Airport="CYQR" Runways="08">
-		  <Route Runway="08">GORAK GUBEK DENTU MIBMO TOVAB XUBOK</Route>
+		  <Route Runway="08">GORAK/GUBEK/DENTU/MIBMO/TOVAB/XUBOK</Route>
 		</STAR>
 		<STAR Name="KEMKA6" Airport="CYQR" Runways="08">
-		  <Route Runway="08">KEMKA URTEX DENTU MIBMO TOVAB XUBOK</Route>
+		  <Route Runway="08">KEMKA/URTEX/DENTU/MIBMO/TOVAB/XUBOK</Route>
 		</STAR>
 		<STAR Name="ODGOV6" Airport="CYQR" Runways="08">
-		  <Route Runway="08">ODGOV MIBMO TOVAB XUBOK</Route>
+		  <Route Runway="08">ODGOV/MIBMO/TOVAB/XUBOK</Route>
 		</STAR>
 		<!-- Runway 13 -->
 		<STAR Name="ANTOS6" Airport="CYQR" Runways="13">
-		  <Route Runway="13">ANTOS CHEPS ZRS</Route>
+		  <Route Runway="13">ANTOS/CHEPS/ZRS</Route>
 		</STAR>
 		<STAR Name="GORAK2" Airport="CYQR" Runways="13">
-		  <Route Runway="13">GORAK VEPVO KEBSI NADUP CHEPS ZRS</Route>
+		  <Route Runway="13">GORAK/VEPVO/KEBSI/NADUP/CHEPS/ZRS</Route>
 		</STAR>
 		<STAR Name="KEMKA6" Airport="CYQR" Runways="13">
-		  <Route Runway="13">KEMKA KEBSI NADUP CHEPS ZRS</Route>
+		  <Route Runway="13">KEMKA/KEBSI/NADUP/CHEPS/ZRS</Route>
 		</STAR>
 		<STAR Name="ODGOV6" Airport="CYQR" Runways="13">
-		  <Route Runway="13">ODGOV CHEPS ZRS</Route>
+		  <Route Runway="13">ODGOV/CHEPS/ZRS</Route>
 		</STAR>
 		<!-- Runway 26 -->
 		<STAR Name="ANTOS6" Airport="CYQR" Runways="26">
-		  <Route Runway="26">ANTOS PEMGO OMTUT BOBKU ERDAP TANPU</Route>
+		  <Route Runway="26">ANTOS/PEMGO/OMTUT/BOBKU/ERDAP/TANPU</Route>
 		</STAR>
 		<STAR Name="GORAK2" Airport="CYQR" Runways="26">
-		  <Route Runway="26">GORAK VEPVO ERDAP TANPU</Route>
+		  <Route Runway="26">GORAK/VEPVO/ERDAP/TANPU</Route>
 		</STAR>
 		<STAR Name="KEMKA6" Airport="CYQR" Runways="26">
-		  <Route Runway="26">KEMKA ERDAP TANPU</Route>
+		  <Route Runway="26">KEMKA/ERDAP/TANPU</Route>
 		</STAR>
 		<STAR Name="ODGOV6" Airport="CYQR" Runways="26">
-		  <Route Runway="26">ODGOV SEGEN OMTUT BOBKU ERDAP TANPU</Route>
+		  <Route Runway="26">ODGOV/SEGEN/OMTUT/BOBKU/ERDAP/TANPU</Route>
 		</STAR>
 		<!-- Runway 31 -->
 		<STAR Name="ANTOS6" Airport="CYQR" Runways="31">
-		  <Route Runway="31">ANTOS PEMGO SEBIX IGVEX MUVAN ROSLI</Route>
+		  <Route Runway="31">ANTOS/PEMGO/SEBIX/IGVEX/MUVAN/ROSLI</Route>
 		</STAR>
 		<STAR Name="GORAK2" Airport="CYQR" Runways="31">
-		  <Route Runway="31">GORAK GUBEK MUVAN ROSLI</Route>
+		  <Route Runway="31">GORAK/GUBEK/MUVAN/ROSLI</Route>
 		</STAR>
 		<STAR Name="KEMKA6" Airport="CYQR" Runways="31">
-		  <Route Runway="31">KEMKA URTEX MUVAN ROSLI</Route>
+		  <Route Runway="31">KEMKA/URTEX/MUVAN/ROSLI</Route>
 		</STAR>
 		<STAR Name="ODGOV6" Airport="CYQR" Runways="31">
-		  <Route Runway="31">ODGOV BONAV SEBIX IGVEX MUVAN ROSLI</Route>
+		  <Route Runway="31">ODGOV/BONAV/SEBIX/IGVEX/MUVAN/ROSLI</Route>
 		</STAR>
 		
-	<!-- CYQT -->
+	<!--/CYQT/-->
 	<SID Name="CYQT8" Airport="CYQT" Runways="07,25,30">
 		<Route>YQT</Route>
 	</SID>
 	<SID Name="LESIS1" Airport="CYQT" Runways="25,30">
-		<Route>LESIS BOTIT</Route>
+		<Route>LESIS/BOTIT</Route>
 	</SID>
 		<STAR Name="LIBUK2" Airport="CYQT" Runways="07,12,25">
-			<Route Runway="07">LIBUK IRBOX UMIMO NUBEN FESET QT</Route>
-			<Route Runway="12">LIBUK IRBOX SIKBU MOGOV LOLVA XOTUV</Route>
-			<Route Runway="25">LIBUK IRBOX TAPMO GABUR KANEV BEROB VEPVI</Route>
+			<Route Runway="07">LIBUK/IRBOX/UMIMO/NUBEN/FESET/QT</Route>
+			<Route Runway="12">LIBUK/IRBOX/SIKBU/MOGOV/LOLVA/XOTUV</Route>
+			<Route Runway="25">LIBUK/IRBOX/TAPMO/GABUR/KANEV/BEROB/VEPVI</Route>
 		</STAR>
 		<STAR Name="NOTER3" Airport="CYQT" Runways="07,12,25">
-			<Transition Name="NOTER">URSUM DUPUL</Transition>
+			<Transition Name="URSUM">URSUM</Transition>
+			<Transition Name="DUPUL">DUPUL</Transition>
 			<Route>NOTER</Route>
-			<Route Runway="07">MIXEB KEBTU FESET QT</Route>
-			<Route Runway="12">DEPLI MOGOV LOLVA XOTUV</Route>
-			<Route Runway="25">VIVUR KANEV BEROB VEPVI</Route>
+			<Route Runway="07">MIXEB/KEBTU/FESET/QT</Route>
+			<Route Runway="12">DEPLI/MOGOV/LOLVA/XOTUV</Route>
+			<Route Runway="25">VIVUR/KANEV/BEROB/VEPVI</Route>
 		</STAR>
 		<STAR Name="NOTER3" Airport="CYQT" Runways="07,12,25">
 			<Route>TIGAG</Route>
-			<Route Runway="07">ALVEB DURIT FESET QT</Route>
-			<Route Runway="12">ALVEB MOGOV LOLVA XOTUV</Route>
-			<Route Runway="25">ALVEB KINUN UKRED GABUR KANEV BEROB VEPVI</Route>
+			<Route Runway="07">ALVEB/DURIT/FESET/QT</Route>
+			<Route Runway="12">ALVEB/MOGOV/LOLVA/XOTUV</Route>
+			<Route Runway="25">ALVEB/KINUN/UKRED/GABUR/KANEV/BEROB/VEPVI</Route>
 		</STAR>
 
-	<!-- CYMJ -->
+	<!--/CYMJ/-->
 	<SID Name="CYMJ.7" Airport="CYMJ" Runways="11L">
-      <Route Runway="11L">YMJ</Route>
-    </SID>
+		<Route Runway="11L">YMJ</Route>
+	</SID>
 	<SID Name="CYMJ.7" Airport="CYMJ" Runways="11R">
-      <Route Runway="11R">YMJ</Route>
-    </SID>
+		<Route Runway="11R">YMJ</Route>
+	</SID>
 	<SID Name="CYMJ.7" Airport="CYMJ" Runways="29L">
-      <Route Runway="29L">YMJ</Route>
-    </SID>
+		<Route Runway="29L">YMJ</Route>
+	</SID>
 	<SID Name="CYMJ.7" Airport="CYMJ" Runways="29L">
-      <Route Runway="29R">YMJ</Route>
-    </SID>
-		<!-- CYMJ 11L -->
+		<Route Runway="29R">YMJ</Route>
+	</SID>
+		<!--/CYMJ/11L/-->
 		<STAR Name="DUKPI.ILS.Z" Airport="CYMJ" Runways="11L">
-			<Route Runway="11L">DUKPI BESEN NADAG</Route>
+			<Route Runway="11L">DUKPI/BESEN/NADAG</Route>
 		</STAR>
 		<STAR Name="EBLEP.ILS.Z" Airport="CYMJ" Runways="11L">
-			<Route Runway="11L">EBLEP BESEN NADAG</Route>
+			<Route Runway="11L">EBLEP/BESEN/NADAG</Route>
 		</STAR>
 		<STAR Name="BESEN.RNAV" Airport="CYMJ" Runways="11L">
-			<Route Runway="11L">BESEN NADAG</Route>
+			<Route Runway="11L">BESEN/NADAG</Route>
 		</STAR>
 		<STAR Name="DUKPI.RNAV" Airport="CYMJ" Runways="11L">
-			<Route Runway="11L">DUKPI BESEN NADAG</Route>
+			<Route Runway="11L">DUKPI/BESEN/NADAG</Route>
 		</STAR>
 		<STAR Name="EBLEP.RNAV" Airport="CYMJ" Runways="11L">
-			<Route Runway="11L">EBLEP BESEN NADAG</Route>
+			<Route Runway="11L">EBLEP/BESEN/NADAG</Route>
 		</STAR>
-		<!-- CYMJ 29R -->
+		<!--/CYMJ/29R/-->
 		<STAR Name="IPRUN.ILS.Z" Airport="CYMJ" Runways="29R">
-			<Route Runway="29R">IPRUN IGTOL GOXAG</Route>
+			<Route Runway="29R">IPRUN/IGTOL/GOXAG</Route>
 		</STAR>
 		<STAR Name="LIDAN.ILS.Z" Airport="CYMJ" Runways="29R">
-			<Route Runway="29R">LIDAN IGTOL GOXAG</Route>
+			<Route Runway="29R">LIDAN/IGTOL/GOXAG</Route>
 		</STAR>
 		<STAR Name="IGTOL.RNAV" Airport="CYMJ" Runways="29R">
-			<Route Runway="29R">IGTOL GOXAG</Route>
+			<Route Runway="29R">IGTOL/GOXAG</Route>
 		</STAR>
 		<STAR Name="IPRUN.RNAV" Airport="CYMJ" Runways="29R">
-			<Route Runway="29R">IPRUN IGTOL GOXAG</Route>
+			<Route Runway="29R">IPRUN/IGTOL/GOXAG</Route>
 		</STAR>
 		<STAR Name="LIDAN.RNAV" Airport="CYMJ" Runways="29R">
-			<Route Runway="29R">LIDAN IGTOL GOXAG</Route>
+			<Route Runway="29R">LIDAN/IGTOL/GOXAG</Route>
 		</STAR>
 	
-	<!-- CYWG -->
+	<!--/CYWG/-->
 	<SID Name="GRZLY2" Airport="CYWG" Runways="13,31,18,36">
 		<Route>YWG</Route>
 	</SID>
@@ -11794,62 +11795,67 @@
 		<Route>YWG</Route>
 	</SID>
 	<SID Name="MUSIB1" Airport="CYWG" Runways="13">
-		<Route>IKNOK MUSIB</Route>
+		<Route>IKNOK/MUSIB</Route>
 	</SID>
 	<SID Name="DUXUS1" Airport="CYWG" Runways="18">
-		<Route>AVOTU DUXUS PEPKA</Route>
+		<Route>AVOTU/DUXUS/PEPKA</Route>
 	</SID>
 	<SID Name="VOGIG2" Airport="CYWG" Runways="31">
-		<Route>EBKEL VOGIG</Route>
+		<Route>EBKEL/VOGIG</Route>
 	</SID>
 	<SID Name="WLLYE1" Airport="CYWG" Runways="36">
 		<Route>YWG</Route>
 	</SID>
 	<SID Name="KARIS1" Airport="CYWG" Runways="36">
-		<Route>GABAX KARIS</Route>
+		<Route>GABAX/KARIS</Route>
 	</SID>
 	<SID Name="STONY2" Airport="CYWG" Runways="36">
 		<Route>YWG</Route>
 	</SID>
 		<STAR Name="AMBIL2" Airport="CYWG" Runways="13,31,18,36">
-			<Transition Name="AMBIL">MEVDU VLR</Transition>
+			<Transition Name="MEVDU">MEVDU</Transition>
+			<Transition Name="VLR">VLR</Transition>
 			<Route>AMBIL</Route>
-			<Route Runway="13">IRLUD VOGIG ZWN</Route>
-			<Route Runway="31">VEVSI GABRU MESTA DUTRU MUSIB ZHT</Route>
-			<Route Runway="18">EMPAP IKLOS ULDOL ORORK</Route>
-			<Route Runway="36">VEVSI GABRU BOTUR NOXAM ZWW</Route>
+			<Route Runway="13">IRLUD/VOGIG/ZWN</Route>
+			<Route Runway="31">VEVSI/GABRU/MESTA/DUTRU/MUSIB/ZHT</Route>
+			<Route Runway="18">EMPAP/IKLOS/ULDOL/ORORK</Route>
+			<Route Runway="36">VEVSI/GABRU/BOTUR/NOXAM/ZWW</Route>
 		</STAR>
 		<STAR Name="BEFAN2" Airport="CYWG" Runways="13,31,18,36">
-			<Transition Name="BEFAN">YBR DUVLA</Transition>
+			<Transition Name="YBR">YBR</Transition>
+			<Transition Name="DUVLA">DUVLA</Transition>
 			<Route>BEFAN</Route>
-			<Route Runway="13">ODBIT APLEG AVSUN VOGIG ZWN</Route>
-			<Route Runway="31">ODBIT LEPEM DAVSU DUTRU MUSIB ZHT</Route>
-			<Route Runway="18">ODBIT VEVSI EPNID IKLOS ULDOL ORORK</Route>
-			<Route Runway="36">ODBIT LEPEM BOTUR NOXAM ZWW</Route>
+			<Route Runway="13">ODBIT/APLEG/AVSUN/VOGIG/ZWN</Route>
+			<Route Runway="31">ODBIT/LEPEM/DAVSU/DUTRU/MUSIB/ZHT</Route>
+			<Route Runway="18">ODBIT/VEVSI/EPNID/IKLOS/ULDOL/ORORK</Route>
+			<Route Runway="36">ODBIT/LEPEM/BOTUR/NOXAM/ZWW</Route>
 		</STAR>
 		<STAR Name="KELTO3" Airport="CYWG" Runways="13,31,18,36">
-			<Transition Name="KELTO">TULUP GOREL VITAG</Transition>
+			<Transition Name="TULUP">TULUP</Transition>
+			<Transition Name="GOREL">GOREL</Transition>
+			<Transition Name="VITAG">VITAG</Transition>
 			<Route>KELTO</Route>
-			<Route Runway="13">GABUV KEPGA VOGIG ZWN</Route>
-			<Route Runway="31">URVEV MIPUT VODUN MUSIB ZHT</Route>
-			<Route Runway="18">GABUV ULDOL ORORK</Route>
-			<Route Runway="36">URVEV IPRUP VEPTA IPSIV NOXAM ZWW</Route>
+			<Route Runway="13">GABUV/KEPGA/VOGIG/ZWN</Route>
+			<Route Runway="31">URVEV/MIPUT/VODUN/MUSIB/ZHT</Route>
+			<Route Runway="18">GABUV/ULDOL/ORORK</Route>
+			<Route Runway="36">URVEV/IPRUP/VEPTA/IPSIV/NOXAM/ZWW</Route>
 		</STAR>
 		<STAR Name="NORAK2" Airport="CYWG" Runways="13,31,18,36">
-			<Transition Name="NORAK">GOVIT BIPKU</Transition>
+			<Transition Name="GOVIT">GOVIT</Transition>
+			<Transition Name="BIPKU">BIPKU</Transition>
 			<Route>NORAK</Route>
-			<Route Runway="13">ANAXU IPRUP TAMEP KEPGA VOGIG ZWN</Route>
-			<Route Runway="31">MUSIB ZHT</Route>
-			<Route Runway="18">ANAXU IPRUP EMLOV EBLUN ULDOL ORORK</Route>
-			<Route Runway="36">NORAK PESDA IPSIV NOXAM ZWW</Route>
+			<Route Runway="13">ANAXU/IPRUP/TAMEP/KEPGA/VOGIG/ZWN</Route>
+			<Route Runway="31">MUSIB/ZHT</Route>
+			<Route Runway="18">ANAXU/IPRUP/EMLOV/EBLUN/ULDOL/ORORK</Route>
+			<Route Runway="36">NORAK/PESDA/IPSIV/NOXAM/ZWW</Route>
 		</STAR>
 		<STAR Name="PEPNO2" Airport="CYWG" Runways="13,31,18,36">
-			<Transition Name="KENBI">LITNA</Transition>
+			<Transition Name="LITNA">LITNA</Transition>
 			<Route>PEPNO</Route>
-			<Route Runway="13">MESTA GABRU AVSUN VOGIG ZWN</Route>
-			<Route Runway="31">MUSIB ZHT</Route>
-			<Route Runway="18">EMLOV EBLUN ULDOL ORORK</Route>
-			<Route Runway="36">NOXAM ZWW</Route>
+			<Route Runway="13">MESTA/GABRU/AVSUN/VOGIG/ZWN</Route>
+			<Route Runway="31">MUSIB/ZHT</Route>
+			<Route Runway="18">EMLOV/EBLUN/ULDOL/ORORK</Route>
+			<Route Runway="36">NOXAM/ZWW</Route>
 		</STAR>
 </SIDSTARs>
 </Airspace>

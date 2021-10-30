@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <Sectors>
-  <Sector FullName="WPG CENTER ALL" Frequency="124.000" Callsign="_ALL" Name="WPG_CTR_ALL" DisplayInHandoffWindow="False">
+  <Sector FullName="WPG_CTR" Frequency="124.000" Callsign="WPG_CTR" Name="WPG_CTR" DisplayInHandoffWindow="False">
     <Volumes>CZWG_FL_CTR, CZWG_FL_CTR, CZWG_BR_CTR, CZWG_VC_CTR, CZWG_NL_CTR, CZWG_70_CTR</Volumes>
   </Sector>
   <Sector FullName="CYWG_GND" Frequency="121.900" Callsign="CYWG_GND" Name="CYWG_GND" DisplayInHandoffWindow="False">

@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <Positions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <Position Name="WPG_CTR_ALL" Type="ASD" DefaultCenter="+530351.051-0932039.771" DefaultRange="3000">
+  <Position Name="WPG_CTR" Type="ASD" DefaultCenter="+530351.051-0932039.771" DefaultRange="3000">
     <Sectors>
-		<Sector Name="WPG_CTR_ALL" />
+		<Sector Name="WPG_CTR" />
     </Sectors>
     <Maps>
       <Map Name="CZWG_GEO" />
@@ -33,6 +33,7 @@
 	  <Line>Visit us at winnipegfir.ca.</Line>
     </ControllerInfo>
   </Position>
+  
   <Position Name="CYWG_APP" Type="ASD" DefaultCenter="+495436.050-0971424.338" DefaultRange="290">
     <Sectors>
 		<Sector Name="CYWG_APP" />
@@ -40,7 +41,7 @@
     <Maps>
 	  <Map Name="CYWG/Airspace" />
 	  <Map Name="CZWG_NDB" />
-	  
+
 	  <Map Name="CYWG/WGCZ" />
     </Maps>
     <Strips Mode="State" Sort="Time">

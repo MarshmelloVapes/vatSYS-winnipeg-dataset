@@ -16,6 +16,17 @@
     <Volumes>CYWG_DEP</Volumes>
   </Sector>
   
+  <!-- CZWG Center Low Postions -->
+  <Sector FullName="Great_Plains_Low" Frequency="123.800" Callsign="WPG_LO_GP" Name="WPG_LO_GP" DisplayInHandoffWindow="False">
+    <Volumes>WPG_LO_GP</Volumes>
+  </Sector>
+  <Sector FullName="Winnipeg_West_Low" Frequency="132.250" Callsign="WPG_LO_WW" Name="WPG_LO_WW" DisplayInHandoffWindow="False">
+    <Volumes>WPG_LO_WW</Volumes>
+  </Sector>
+  <Sector FullName="Winnipeg_East_Low" Frequency="118.000" Callsign="WPG_LO_WE" Name="WPG_LO_WE" DisplayInHandoffWindow="False">
+    <Volumes>WPG_LO_WE</Volumes>
+  </Sector>
+  
   <!-- CYQT - Thunder Bay -->
   <Sector FullName="Thunder Bay - Tower" Frequency="118.100" Callsign="CYQT_TWR" Name="CYQT_TWR" DisplayInHandoffWindow="False">
     <Volumes>CYQT_TWR</Volumes>

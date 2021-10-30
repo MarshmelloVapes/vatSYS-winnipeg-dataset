@@ -16,7 +16,15 @@
     <Volumes>CYWG_DEP</Volumes>
   </Sector>
   
-  <!-- CYMJ - MOOSEJAW - Fix sector file-->
+  <!-- CYQT - Thunder Bay -->
+  <Sector FullName="Thunder Bay - Tower" Frequency="118.100" Callsign="CYQT_TWR" Name="CYQT_TWR" DisplayInHandoffWindow="False">
+    <Volumes>CYQT_TWR</Volumes>
+  </Sector>
+  <Sector FullName="Thunder Bay - Ground" Frequency="121.900" Callsign="CYQT_GND" Name="CYQT_GND" DisplayInHandoffWindow="False">
+    <Volumes>CYQT_GND</Volumes>
+  </Sector>
+  
+  <!-- CYMJ - MOOSEJAW -->
   <Sector FullName="Moose Jaw - Tower" Frequency="126.200" Callsign="CYMJ_TWR" Name="CYMJ_TWR" DisplayInHandoffWindow="False">
     <Volumes>CYMJ_TWR</Volumes>
   </Sector>

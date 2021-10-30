@@ -1169,10 +1169,10 @@
   <Volume Name="CYWG_APP" LowerLimit="0" UpperLimit="23000">
     <Boundaries>WGTCA</Boundaries>
   </Volume>
-  <Volume Name="CYQT_GND" LowerLimit="0" UpperLimit="0">
+  <Volume Name="CYQT_GND" LowerLimit="0" UpperLimit="4000">
     <Boundaries>QTCZ</Boundaries>
   </Volume>
-  <Volume Name="CYQT_TWR" LowerLimit="0" UpperLimit="4000">
+  <Volume Name="CYQT_TWR" LowerLimit="0" UpperLimit="6000">
     <Boundaries>QTCZ</Boundaries>
   </Volume>
   <Volume Name="CYQT_APP" LowerLimit="0" UpperLimit="23000">

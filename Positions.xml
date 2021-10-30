@@ -60,12 +60,14 @@
   </Position>
   
   <!-- MOOSEJAW -->
-  <Position Name="CYMJ_TWR" Type="ASD" DefaultCenter="+501949.000-1053333.001" DefaultRange="55">
+  <Position Name="Moose Jaw (CYMJ) - Tower" Type="ASD" DefaultCenter="+501949.000-1053333.001" DefaultRange="30">
     <Sectors>
 		<Sector Name="CYMJ_TWR" />
     </Sectors>
     <Maps>
 	  <Map Name="CZWG_GEO" />
+	  <Map Name="CZWG FIR/FIR Runways" />
+	  <Map Name="CZWG FIR/FIR Runway Numbers" />
 	  <Map Name="Moose Jaw - (CYMJ)/CYMJ_AIRSPACE_CONTROLZONE" />
 	  <Map Name="Moose Jaw - (CYMJ)/CYMJ_AIRSPACE_E" />
     </Maps>
@@ -84,14 +86,69 @@
     </ControllerInfo>
   </Position>
   
-  <Position Name="CYMJ_APP" Type="ASD" DefaultCenter="+500000.000-1053333.001" DefaultRange="220">
+  <Position Name="Moose Jaw (CYMJ) - Terminal" Type="ASD" DefaultCenter="+500000.000-1053333.001" DefaultRange="220">
     <Sectors>
 		<Sector Name="CYMJ_APP" />
     </Sectors>
     <Maps>
 	  <Map Name="CZWG_GEO" />
+	  <Map Name="CZWG FIR/FIR Runways" />
 	  <Map Name="Moose Jaw - (CYMJ)/CYMJ_AIRSPACE_CONTROLZONE" />
 	  <Map Name="Moose Jaw - (CYMJ)/CYMJ_AIRSPACE_E" />
+    </Maps>
+    <Strips Mode="State" Sort="Time">
+      <Window Type="State" State="Jurisdiction" Visible="true" />
+      <Window Type="State" State="Announced" Visible="true" />
+      <Window Type="State" State="Preactive" Visible="true" />
+    </Strips>
+    <CFL QuickLevel="10000" />
+    <ArrivalLists>
+    </ArrivalLists>
+    <ControllerInfo>
+	  <Line>Thanks for flying with the Winnipeg FIR!</Line>
+	  <Line>Questions, comments or feedback? We want to hear it!</Line>
+	  <Line>Visit us at winnipegfir.ca.</Line>
+    </ControllerInfo>
+  </Position>
+  
+  <!-- Thunder Bay -->
+  <Position Name="Thunder Bay (CYQT) - Tower" Type="ASD" DefaultCenter="+482219.189-0891918.141" DefaultRange="30">
+    <Sectors>
+		<Sector Name="CYQT_TWR" />
+    </Sectors>
+    <Maps>
+	  <Map Name="CZWG_GEO" />
+	  <Map Name="CZWG FIR/FIR Runways" />
+	  <Map Name="CZWG FIR/FIR Runway Numbers" />
+	  <Map Name="Thunder Bay - (CYQT)/CYQT_AIRSPACE_CONTROLZONE" />
+	  <Map Name="Thunder Bay - (CYQT)/CYQT_AIRSPACE_E" />
+	  <Map Name="Thunder Bay - (CYQT)/CYQT_RUNWAYS" />
+    </Maps>
+    <Strips Mode="State" Sort="Time">
+      <Window Type="State" State="Jurisdiction" Visible="true" />
+      <Window Type="State" State="Announced" Visible="true" />
+      <Window Type="State" State="Preactive" Visible="true" />
+    </Strips>
+    <CFL QuickLevel="10000" />
+    <ArrivalLists>
+    </ArrivalLists>
+    <ControllerInfo>
+	  <Line>Thanks for flying with the Winnipeg FIR!</Line>
+	  <Line>Questions, comments or feedback? We want to hear it!</Line>
+	  <Line>Visit us at winnipegfir.ca.</Line>
+    </ControllerInfo>
+  </Position>
+  
+  <Position Name="Thunder Bay (CYQT) - Ground" Type="ASD" DefaultCenter="+482219.189-0891918.141" DefaultRange="10">
+    <Sectors>
+		<Sector Name="CYQT_GND" />
+    </Sectors>
+    <Maps>
+	  <Map Name="CZWG_GEO" />
+	  <Map Name="CZWG FIR/FIR Runways" />
+	  <Map Name="CZWG FIR/FIR Runway Numbers" />
+	  <Map Name="Thunder Bay - (CYQT)/CYQT_AIRSPACE_CONTROLZONE" />
+	  <Map Name="Thunder Bay - (CYQT)/CYQT_AIRSPACE_E" />
     </Maps>
     <Strips Mode="State" Sort="Time">
       <Window Type="State" State="Jurisdiction" Visible="true" />

@@ -23,6 +23,29 @@
     <Airport ICAO="CYBR" Position="+495436.000-0995708.179" />
     <Airport ICAO="CYPG" Position="+495411.282-0981626.080" />
     <Airport ICAO="CYQT" Position="+482219.189-0891918.142" />
+		<Runway name="07" DataRunway="07">
+			<SID Name="CYQT8" Default="True" />
+			<STAR Name="LIBUK2" />
+			<STAR Name="NOTER3" />
+			<STAR Name="TIGAG2" />
+		</Runway>
+		<Runway name="12" DataRunway="12">
+			<SID Name="CYQT8" Default="True" />
+			<STAR Name="LIBUK2" />
+			<STAR Name="NOTER3" />
+			<STAR Name="TIGAG2" />
+		</Runway>
+		<Runway name="25" DataRunway="25">
+			<SID Name="LESIS1" Default="True" />
+			<SID Name="CYQT8"/>
+			<STAR Name="LIBUK2" />
+			<STAR Name="NOTER3" />
+			<STAR Name="TIGAG2" />
+		</Runway>
+		<Runway name="30" DataRunway="30">
+			<SID Name="LESIS1" Default="True" />
+			<SID Name="CYQT8"/>
+		</Runway>
     <Airport ICAO="CYMJ" Position="+501949.001-1053333.001" />
 		<Runway name="11L" DataRunway="11L">
 			<SID Name="CYMJ7" Default="True" />
@@ -11690,8 +11713,34 @@
 		<STAR Name="ODGOV6" Airport="CYQR" Runways="31">
 		  <Route Runway="31">ODGOV BONAV SEBIX IGVEX MUVAN ROSLI</Route>
 		</STAR>
+		
+	<!-- CYQT -->
+	<SID Name="CYQT8" Airport="CYQT" Runways="07,25,30">
+		<Route>YQT</Route>
+	</SID>
+	<SID Name="LESIS1" Airport="CYQT" Runways="25,30">
+		<Route>LESIS BOTIT</Route>
+	</SID>
+		<STAR Name="LIBUK2" Airport="CYQT" Runways="07,12,25">
+			<Route Runway="07">LIBUK IRBOX UMIMO NUBEN FESET QT</Route>
+			<Route Runway="12">LIBUK IRBOX SIKBU MOGOV LOLVA XOTUV</Route>
+			<Route Runway="25">LIBUK IRBOX TAPMO GABUR KANEV BEROB VEPVI</Route>
+		</STAR>
+		<STAR Name="NOTER3" Airport="CYQT" Runways="07,12,25">
+			<Transition Name="NOTER">URSUM DUPUL</Transition>
+			<Route>NOTER</Route>
+			<Route Runway="07">MIXEB KEBTU FESET QT</Route>
+			<Route Runway="12">DEPLI MOGOV LOLVA XOTUV</Route>
+			<Route Runway="25">VIVUR KANEV BEROB VEPVI</Route>
+		</STAR>
+		<STAR Name="NOTER3" Airport="CYQT" Runways="07,12,25">
+			<Route>TIGAG</Route>
+			<Route Runway="07">ALVEB DURIT FESET QT</Route>
+			<Route Runway="12">ALVEB MOGOV LOLVA XOTUV</Route>
+			<Route Runway="25">ALVEB KINUN UKRED GABUR KANEV BEROB VEPVI</Route>
+		</STAR>
 
-	<!-- CYMJ CYMJ.7 -->
+	<!-- CYMJ -->
 	<SID Name="CYMJ.7" Airport="CYMJ" Runways="11L">
       <Route Runway="11L">YMJ</Route>
     </SID>
@@ -11737,105 +11786,70 @@
 			<Route Runway="29R">LIDAN IGTOL GOXAG</Route>
 		</STAR>
 	
-	<!-- CYWG RUNWAY 18 -->
-	<SID Name="DUXUS1" Airport="CYWG" Runways="18">
-      <Route Runway="18">AVOTU DUXUS PEPKA</Route>
-    </SID>
-	<SID Name="GRZLY2" Airport="CYWG" Runways="18">
-      <Route Runway="18">YWG</Route>
-    </SID>
-	<SID Name="YWG2" Airport="CYWG" Runways="18">
-      <Route Runway="18">YWG</Route>
-    </SID>
-	<STAR Name="AMBIL2" Airport="CYWG" Runways="18">
-      <Route Runway="18">AMBIL EMPAP IKLOS ULDOL ORORK</Route>
-    </STAR>
-	<STAR Name="BEFAN2" Airport="CYWG" Runways="18">
-      <Route Runway="18">BEFAN ODBIT VEVSI EPNID IKLOS ULDOL ORORK</Route>
-    </STAR>
-	<STAR Name="KELTO3" Airport="CYWG" Runways="18">
-      <Route Runway="18">KELTO GABUV ULDOL ORORK</Route>
-    </STAR>
-	<STAR Name="NORAK2" Airport="CYWG" Runways="18">
-      <Route Runway="18">NORAK ANAXU IPRUP EMLOV EBLUN ULDOL ORORK</Route>
-    </STAR>
-	<!-- CYWG RUNWAY 36 -->
-	<SID Name="WLLYE1" Airport="CYWG" Runways="36">
-      <Route Runway="36">YWG</Route>
-    </SID>
-	<SID Name="GRZLY2" Airport="CYWG" Runways="18">
-      <Route Runway="36">YWG</Route>
-    </SID>
-	<SID Name="KARIS1" Airport="CYWG" Runways="36">
-      <Route Runway="36">GABAX KARIS</Route>
-    </SID>
-	<SID Name="STONY2" Airport="CYWG" Runways="36">
-      <Route Runway="36">YWG</Route>
-    </SID>
-	<STAR Name="AMBIL2" Airport="CYWG" Runways="36">
-      <Route Runway="36">AMBIL VEVSI GABRU BOTUR NOXAM ZWW</Route>
-    </STAR>
-	<STAR Name="BEFAN2" Airport="CYWG" Runways="36">
-      <Route Runway="36">BEFAN ODBIT LEPEM BOTUR NOXAM ZWW</Route>
-    </STAR>
-	<STAR Name="KELTO3" Airport="CYWG" Runways="36">
-      <Route Runway="36">KELTO URVEV IPRUP VEPTA IPSIV NOXAM ZWW</Route>
-    </STAR>
-	<STAR Name="NORAK2" Airport="CYWG" Runways="36">
-      <Route Runway="36">NORAK PESDA IPSIV NOXAM ZWW</Route>
-    </STAR>
-	<STAR Name="PEPNO2" Airport="CYWG" Runways="36">
-      <Route Runway="36">KENBI PEPNO NOXAM ZWW</Route>
-    </STAR>
-	<!-- CYWG RUNWAY 13 -->
+	<!-- CYWG -->
+	<SID Name="GRZLY2" Airport="CYWG" Runways="13,31,18,36">
+		<Route>YWG</Route>
+	</SID>
+	<SID Name="YWG2" Airport="CYWG" Runways="13,31,18">
+		<Route>YWG</Route>
+	</SID>
 	<SID Name="MUSIB1" Airport="CYWG" Runways="13">
-      <Route Runway="13">IKNOK MUSIB</Route>
-    </SID>
-	<SID Name="GRZLY2" Airport="CYWG" Runways="13">
-      <Route Runway="13">YWG</Route>
-    </SID>
-	<SID Name="YWG2" Airport="CYWG" Runways="13">
-      <Route Runway="13">YWG</Route>
-    </SID>
-	<STAR Name="AMBIL2" Airport="CYWG" Runways="13">
-      <Route Runway="13">AMBIL IRLUD VOGIG ZWN</Route>
-    </STAR>
-	<STAR Name="BEFAN2" Airport="CYWG" Runways="13">
-      <Route Runway="13">BEFAN ODBIT APLEG AVSUN VOGIG ZWN</Route>
-    </STAR>
-	<STAR Name="KELTO3" Airport="CYWG" Runways="13">
-      <Route Runway="13">KELTO GABUV KEPGA VOGIG ZWN</Route>
-    </STAR>
-	<STAR Name="NORAK2" Airport="CYWG" Runways="13">
-      <Route Runway="13">NORAK ANAXU IPRUP TAMEP KEPGA VOGIG ZWN</Route>
-    </STAR>
-	<STAR Name="PEPNO2" Airport="CYWG" Runways="13">
-      <Route Runway="13">KENBI PEPNO MESTA GABRU AVSUN VOGIG ZWN</Route>
-    </STAR>
-	<!-- CYWG RUNWAY 31 -->
+		<Route>IKNOK MUSIB</Route>
+	</SID>
+	<SID Name="DUXUS1" Airport="CYWG" Runways="18">
+		<Route>AVOTU DUXUS PEPKA</Route>
+	</SID>
 	<SID Name="VOGIG2" Airport="CYWG" Runways="31">
-      <Route Runway="31">EBKEL VOGIG</Route>
-    </SID>
-	<SID Name="GRZLY2" Airport="CYWG" Runways="31">
-      <Route Runway="31">YWG</Route>
-    </SID>
-	<SID Name="YWG2" Airport="CYWG" Runways="31">
-      <Route Runway="31">YWG</Route>
-    </SID>
-	<STAR Name="AMBIL2" Airport="CYWG" Runways="31">
-      <Route Runway="31">AMBIL VEVSI GABRU MESTA DUTRU MUSIB ZHT</Route>
-    </STAR>
-	<STAR Name="BEFAN2" Airport="CYWG" Runways="31">
-      <Route Runway="31">BEFAN ODBIT LEPEM DAVSU DUTRU MUSIB ZHT</Route>
-    </STAR>
-	<STAR Name="KELTO3" Airport="CYWG" Runways="31">
-      <Route Runway="31">KELTO URVEV MIPUT VODUN MUSIB ZHT</Route>
-    </STAR>
-	<STAR Name="NORAK2" Airport="CYWG" Runways="31">
-      <Route Runway="31">NORAK MUSIB ZHT</Route>
-    </STAR>
-	<STAR Name="PEPNO2" Airport="CYWG" Runways="31">
-      <Route Runway="31">KENBI PEPNO MUSIB ZHT</Route>
-    </STAR>
+		<Route>EBKEL VOGIG</Route>
+	</SID>
+	<SID Name="WLLYE1" Airport="CYWG" Runways="36">
+		<Route>YWG</Route>
+	</SID>
+	<SID Name="KARIS1" Airport="CYWG" Runways="36">
+		<Route>GABAX KARIS</Route>
+	</SID>
+	<SID Name="STONY2" Airport="CYWG" Runways="36">
+		<Route>YWG</Route>
+	</SID>
+		<STAR Name="AMBIL2" Airport="CYWG" Runways="13,31,18,36">
+			<Transition Name="AMBIL">MEVDU VLR</Transition>
+			<Route>AMBIL</Route>
+			<Route Runway="13">IRLUD VOGIG ZWN</Route>
+			<Route Runway="31">VEVSI GABRU MESTA DUTRU MUSIB ZHT</Route>
+			<Route Runway="18">EMPAP IKLOS ULDOL ORORK</Route>
+			<Route Runway="36">VEVSI GABRU BOTUR NOXAM ZWW</Route>
+		</STAR>
+		<STAR Name="BEFAN2" Airport="CYWG" Runways="13,31,18,36">
+			<Transition Name="BEFAN">YBR DUVLA</Transition>
+			<Route>BEFAN</Route>
+			<Route Runway="13">ODBIT APLEG AVSUN VOGIG ZWN</Route>
+			<Route Runway="31">ODBIT LEPEM DAVSU DUTRU MUSIB ZHT</Route>
+			<Route Runway="18">ODBIT VEVSI EPNID IKLOS ULDOL ORORK</Route>
+			<Route Runway="36">ODBIT LEPEM BOTUR NOXAM ZWW</Route>
+		</STAR>
+		<STAR Name="KELTO3" Airport="CYWG" Runways="13,31,18,36">
+			<Transition Name="KELTO">TULUP GOREL VITAG</Transition>
+			<Route>KELTO</Route>
+			<Route Runway="13">GABUV KEPGA VOGIG ZWN</Route>
+			<Route Runway="31">URVEV MIPUT VODUN MUSIB ZHT</Route>
+			<Route Runway="18">GABUV ULDOL ORORK</Route>
+			<Route Runway="36">URVEV IPRUP VEPTA IPSIV NOXAM ZWW</Route>
+		</STAR>
+		<STAR Name="NORAK2" Airport="CYWG" Runways="13,31,18,36">
+			<Transition Name="NORAK">GOVIT BIPKU</Transition>
+			<Route>NORAK</Route>
+			<Route Runway="13">ANAXU IPRUP TAMEP KEPGA VOGIG ZWN</Route>
+			<Route Runway="31">MUSIB ZHT</Route>
+			<Route Runway="18">ANAXU IPRUP EMLOV EBLUN ULDOL ORORK</Route>
+			<Route Runway="36">NORAK PESDA IPSIV NOXAM ZWW</Route>
+		</STAR>
+		<STAR Name="PEPNO2" Airport="CYWG" Runways="13,31,18,36">
+			<Transition Name="KENBI">LITNA</Transition>
+			<Route>PEPNO</Route>
+			<Route Runway="13">MESTA GABRU AVSUN VOGIG ZWN</Route>
+			<Route Runway="31">MUSIB ZHT</Route>
+			<Route Runway="18">EMLOV EBLUN ULDOL ORORK</Route>
+			<Route Runway="36">NOXAM ZWW</Route>
+		</STAR>
 </SIDSTARs>
 </Airspace>

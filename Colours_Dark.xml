@@ -16,6 +16,13 @@
 	<B>204</B>
   </Colour>
   <Colour id="Custom">
+	<Use>HI-LO-NO control borders</Use>
+	<Name>Control_Border_Zones</Name>
+	<R>173</R>
+	<G>173</G>
+	<B>173</B>
+  </Colour>
+  <Colour id="Custom">
 	<Use>Control circle colour - E</Use>
 	<Name>FFixE</Name>
 	<R>255</R>

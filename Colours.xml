@@ -9,6 +9,13 @@
 	<B>141</B>
   </Colour>
   <Colour id="Custom">
+	<Use>HI-LO-NO control borders</Use>
+	<Name>Control_Border_Zones</Name>
+	<R>75</R>
+	<G>111</G>
+	<B>95</B>
+  </Colour>
+  <Colour id="Custom">
 	<Use>Control circle colour</Use>
 	<Name>FFix</Name>
 	<R>255</R>

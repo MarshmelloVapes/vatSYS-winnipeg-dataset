@@ -45,10 +45,43 @@
       <Map Name="CZWG_GEO" />
 	  <Map Name="CZWG_NDB" />
 	  <Map Name="CZWG FIR/FIR Border" />
+	  <Map Name="CZWG FIR/West Low Borders" />
 	  
 	  <Map Name="CYWG/WGCZ" />
 	  <Map Name="Regina - (CYQR)/CYQR_AIRSPACE_CONTROLZONE" />
 	  <Map Name="Regina - (CYQR)/CYQR_AIRSPACE_E" />
+    </Maps>
+    <Strips Mode="State" Sort="Time">
+      <Window Type="State" State="Jurisdiction" Visible="true" />
+      <Window Type="State" State="Announced" Visible="true" />
+      <Window Type="State" State="Preactive" Visible="true" />
+    </Strips>
+    <CFL QuickLevel="10000" />
+    <ArrivalLists>
+    </ArrivalLists>
+    <ControllerInfo>
+	  <Line>Thanks for flying with the Winnipeg FIR!</Line>
+	  <Line>Questions, comments or feedback? We want to hear it!</Line>
+	  <Line>Visit us at winnipegfir.ca.</Line>
+    </ControllerInfo>
+  </Position>
+  
+  <!-- WPG LOW East -->
+  <Position Name="Winnipeg Low - East" Type="ASD" DefaultCenter="+525303.000-0874831.000" DefaultRange="1580">
+    <Sectors>
+		<Sector Name="WPG_EL_TL" />
+		<Sector Name="WPG_EL_QK" />
+		<Sector Name="WPG_EL_SP" />
+    </Sectors>
+    <Maps>
+      <Map Name="CZWG_GEO" />
+	  <Map Name="CZWG_NDB" />
+	  <Map Name="CZWG FIR/FIR Border" />
+	  <Map Name="CZWG FIR/East Low Borders" />
+	  
+	  <Map Name="CYWG/WGCZ" />
+	  <Map Name="Thunder Bay - (CYQT)/CYQT_AIRSPACE_CONTROLZONE" />
+	  <Map Name="Thunder Bay - (CYQT)/CYQT_AIRSPACE_E" />
     </Maps>
     <Strips Mode="State" Sort="Time">
       <Window Type="State" State="Jurisdiction" Visible="true" />

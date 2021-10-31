@@ -68,16 +68,16 @@
   <Colour id="StripBackground">
     <Use>Strip Backgrounds</Use>
     <Name>GreenGrey</Name>
-    <R>2</R>
-    <G>55</G>
-    <B>77</B>
+    <R>33</R>
+    <G>42</G>
+    <B>47</B>
   </Colour>
   <Colour id="WindowBackgound">
     <Use>Window Backgrounds</Use>
     <Name>LightGrey</Name>
-    <R>160</R>
-    <G>170</G>
-    <B>170</B>
+    <R>130</R>
+    <G>130</G>
+    <B>130</B>
   </Colour>
   <Colour id="WindowBorder">
     <Use>Window Border</Use>
@@ -223,9 +223,9 @@
   <Colour id="ASDBackground">
     <Use>ASD Backgrounds</Use>
     <Name>DarkBlue</Name>
-    <R>10</R>
-    <G>24</G>
-    <B>31</B>
+    <R>31</R>
+    <G>38</G>
+    <B>44</B>
   </Colour>
   <Colour id="CPDLCSendButton">
     <Use>CPDLC Hot-Send Button</Use>
@@ -237,9 +237,9 @@
   <Colour id="GroundBackground">
     <Use>A-SMGCS Background</Use>
     <Name>Grey</Name>
-    <R>12</R>
-    <G>12</G>
-    <B>12</B>
+    <R>33</R>
+    <G>42</G>
+    <B>47</B>
   </Colour>
   <Colour id="Jurisdiction">
     <Use>Jurisdiction</Use>
@@ -384,17 +384,17 @@
   <Colour id="PrimaryMap">
     <Use>System Maps</Use>
     <Name>LightBlue</Name>
-    <R>52</R>
-    <G>99</G>
-    <B>128</B>
+    <R>64</R>
+    <G>64</G>
+    <B>64</B>
   </Colour>
   <!--Sector Activo-->
   <Colour id="Infill">
     <Use>Filled Area Map</Use>
     <Name>MidGrey</Name>
-    <R>11</R>
-    <G>19</G>
-    <B>25</B>
+    <R>33</R>
+    <G>42</G>
+    <B>47</B>
   </Colour>
   <Colour id="SecondaryMap">
     <Use>Alternative System Map</Use>

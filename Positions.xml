@@ -50,6 +50,8 @@
 	  <Map Name="CYWG/WGCZ" />
 	  <Map Name="Regina - (CYQR)/CYQR_AIRSPACE_CONTROLZONE" />
 	  <Map Name="Regina - (CYQR)/CYQR_AIRSPACE_E" />
+	  <Map Name="Moose Jaw - (CYMJ)/CYMJ_AIRSPACE_CONTROLZONE" />
+	  <Map Name="Moose Jaw - (CYMJ)/CYMJ_AIRSPACE_E" />
     </Maps>
     <Strips Mode="State" Sort="Time">
       <Window Type="State" State="Jurisdiction" Visible="true" />

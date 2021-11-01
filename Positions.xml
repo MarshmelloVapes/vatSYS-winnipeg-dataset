@@ -134,13 +134,72 @@
     </ControllerInfo>
   </Position>
   
-  <Position Name="CYWG_APP" Type="ASD" DefaultCenter="+495436.050-0971424.338" DefaultRange="290">
+  <!-- WINNIPEG -->
+  <Position Name="Winnipeg (CYWG) - Terminal" Type="ASD" DefaultCenter="+495436.050-0971424.338" DefaultRange="290">
     <Sectors>
 		<Sector Name="CYWG_APP" />
     </Sectors>
     <Maps>
 	  <Map Name="CYWG/Airspace" />
 	  <Map Name="CZWG_NDB" />
+	  <Map Name="CZWG FIR/FIR Runways" />
+
+	  <Map Name="CYWG/WGCZ" />
+    </Maps>
+    <Strips Mode="State" Sort="Time">
+      <Window Type="State" State="Jurisdiction" Visible="true" />
+      <Window Type="State" State="Announced" Visible="true" />
+      <Window Type="State" State="Preactive" Visible="true" />
+    </Strips>
+    <CFL QuickLevel="10000" />
+    <ArrivalLists>
+    </ArrivalLists>
+    <ControllerInfo>
+	  <Line>Thanks for flying with the Winnipeg FIR!</Line>
+	  <Line>Questions, comments or feedback? We want to hear it!</Line>
+	  <Line>Visit us at winnipegfir.ca.</Line>
+    </ControllerInfo>
+  </Position>
+  
+  <Position Name="Winnipeg (CYWG) - Tower" Type="ASD" DefaultCenter="+495436.050-0971424.338" DefaultRange="50">
+    <Sectors>
+		<Sector Name="CYWG_TWR" />
+    </Sectors>
+    <Maps>
+	  <Map Name="CYWG/Airspace" />
+	  <Map Name="CYWG/CYWG_RUNWAYS" />
+	  <Map Name="CZWG_NDB" />
+	  <Map Name="CZWG_GEO" />
+	  <Map Name="CZWG FIR/FIR Runways" />
+	  <Map Name="CZWG FIR/FIR Runway Numbers" />
+
+	  <Map Name="CYWG/WGCZ" />
+    </Maps>
+    <Strips Mode="State" Sort="Time">
+      <Window Type="State" State="Jurisdiction" Visible="true" />
+      <Window Type="State" State="Announced" Visible="true" />
+      <Window Type="State" State="Preactive" Visible="true" />
+    </Strips>
+    <CFL QuickLevel="10000" />
+    <ArrivalLists>
+    </ArrivalLists>
+    <ControllerInfo>
+	  <Line>Thanks for flying with the Winnipeg FIR!</Line>
+	  <Line>Questions, comments or feedback? We want to hear it!</Line>
+	  <Line>Visit us at winnipegfir.ca.</Line>
+    </ControllerInfo>
+  </Position>
+  
+  <Position Name="Winnipeg (CYWG) - Ground" Type="ASD" DefaultCenter="+495436.050-0971424.338" DefaultRange="10">
+    <Sectors>
+		<Sector Name="CYWG_GND" />
+    </Sectors>
+    <Maps>
+	  <Map Name="CYWG/Airspace" />
+	  <Map Name="CZWG_GEO" />
+	  <Map Name="CZWG_NDB" />
+	  <Map Name="CZWG FIR/FIR Runways" />
+	  <Map Name="CZWG FIR/FIR Runway Numbers" />
 
 	  <Map Name="CYWG/WGCZ" />
     </Maps>
@@ -160,9 +219,35 @@
   </Position>
   
   <!-- MOOSEJAW -->
-  <Position Name="Moose Jaw (CYMJ) - Tower" Type="ASD" DefaultCenter="+501949.000-1053333.001" DefaultRange="30">
+  <Position Name="Moose Jaw (CYMJ) - Tower" Type="ASD" DefaultCenter="+501949.000-1053333.001" DefaultRange="50">
     <Sectors>
 		<Sector Name="CYMJ_TWR" />
+    </Sectors>
+    <Maps>
+	  <Map Name="CZWG_GEO" />
+	  <Map Name="CZWG FIR/FIR Runways" />
+	  <Map Name="CZWG FIR/FIR Runway Numbers" />
+	  <Map Name="Moose Jaw - (CYMJ)/CYMJ_AIRSPACE_CONTROLZONE" />
+	  <Map Name="Moose Jaw - (CYMJ)/CYMJ_AIRSPACE_E" />
+    </Maps>
+    <Strips Mode="State" Sort="Time">
+      <Window Type="State" State="Jurisdiction" Visible="true" />
+      <Window Type="State" State="Announced" Visible="true" />
+      <Window Type="State" State="Preactive" Visible="true" />
+    </Strips>
+    <CFL QuickLevel="10000" />
+    <ArrivalLists>
+    </ArrivalLists>
+    <ControllerInfo>
+	  <Line>Thanks for flying with the Winnipeg FIR!</Line>
+	  <Line>Questions, comments or feedback? We want to hear it!</Line>
+	  <Line>Visit us at winnipegfir.ca.</Line>
+    </ControllerInfo>
+  </Position>
+  
+  <Position Name="Moose Jaw (CYMJ) - Ground" Type="ASD" DefaultCenter="+501949.000-1053333.001" DefaultRange="10">
+    <Sectors>
+		<Sector Name="CYMJ_GND" />
     </Sectors>
     <Maps>
 	  <Map Name="CZWG_GEO" />
@@ -249,6 +334,90 @@
 	  <Map Name="CZWG FIR/FIR Runway Numbers" />
 	  <Map Name="Thunder Bay - (CYQT)/CYQT_AIRSPACE_CONTROLZONE" />
 	  <Map Name="Thunder Bay - (CYQT)/CYQT_AIRSPACE_E" />
+    </Maps>
+    <Strips Mode="State" Sort="Time">
+      <Window Type="State" State="Jurisdiction" Visible="true" />
+      <Window Type="State" State="Announced" Visible="true" />
+      <Window Type="State" State="Preactive" Visible="true" />
+    </Strips>
+    <CFL QuickLevel="10000" />
+    <ArrivalLists>
+    </ArrivalLists>
+    <ControllerInfo>
+	  <Line>Thanks for flying with the Winnipeg FIR!</Line>
+	  <Line>Questions, comments or feedback? We want to hear it!</Line>
+	  <Line>Visit us at winnipegfir.ca.</Line>
+    </ControllerInfo>
+  </Position>
+  
+  <!-- SASKATOON -->
+  <Position Name="Saskatoon (CYXE) - Tower" Type="ASD" DefaultCenter="+521015.470-1064159.849" DefaultRange="30">
+    <Sectors>
+		<Sector Name="CYXE_TWR" />
+    </Sectors>
+    <Maps>
+	  <Map Name="CZWG_GEO" />
+	  <Map Name="CZWG FIR/FIR Runways" />
+	  <Map Name="CZWG FIR/FIR Runway Numbers" />
+	  
+	  <Map Name="Saskatoon - (CYXE)/CYXE_AIRSPACE_CONTROLZONE" />
+	  <Map Name="Saskatoon - (CYXE)/CYXE_AIRSPACE_E" />
+	  <Map Name="Saskatoon - (CYXE)/CYXE_RUNWAYS" />
+    </Maps>
+    <Strips Mode="State" Sort="Time">
+      <Window Type="State" State="Jurisdiction" Visible="true" />
+      <Window Type="State" State="Announced" Visible="true" />
+      <Window Type="State" State="Preactive" Visible="true" />
+    </Strips>
+    <CFL QuickLevel="10000" />
+    <ArrivalLists>
+    </ArrivalLists>
+    <ControllerInfo>
+	  <Line>Thanks for flying with the Winnipeg FIR!</Line>
+	  <Line>Questions, comments or feedback? We want to hear it!</Line>
+	  <Line>Visit us at winnipegfir.ca.</Line>
+    </ControllerInfo>
+  </Position>
+  
+  <Position Name="Saskatoon (CYXE) - Ground" Type="ASD" DefaultCenter="+521015.470-1064159.849" DefaultRange="10">
+    <Sectors>
+		<Sector Name="CYXE_GND" />
+    </Sectors>
+    <Maps>
+	  <Map Name="CZWG_GEO" />
+	  <Map Name="CZWG FIR/FIR Runways" />
+	  <Map Name="CZWG FIR/FIR Runway Numbers" />
+	  
+	  <Map Name="Saskatoon - (CYXE)/CYXE_AIRSPACE_CONTROLZONE" />
+	  <Map Name="Saskatoon - (CYXE)/CYXE_AIRSPACE_E" />
+    </Maps>
+    <Strips Mode="State" Sort="Time">
+      <Window Type="State" State="Jurisdiction" Visible="true" />
+      <Window Type="State" State="Announced" Visible="true" />
+      <Window Type="State" State="Preactive" Visible="true" />
+    </Strips>
+    <CFL QuickLevel="10000" />
+    <ArrivalLists>
+    </ArrivalLists>
+    <ControllerInfo>
+	  <Line>Thanks for flying with the Winnipeg FIR!</Line>
+	  <Line>Questions, comments or feedback? We want to hear it!</Line>
+	  <Line>Visit us at winnipegfir.ca.</Line>
+    </ControllerInfo>
+  </Position>
+  
+  <Position Name="Saskatoon (CYXE) - Terminal" Type="ASD" DefaultCenter="+521015.470-1064159.849" DefaultRange="265">
+    <Sectors>
+		<Sector Name="CYXE_APP" />
+    </Sectors>
+    <Maps>
+	  <Map Name="CZWG_GEO" />
+	  <Map Name="CZWG FIR/FIR Runways" />
+	  <Map Name="CZWG FIR/FIR Runway Numbers" />
+	  
+	  <Map Name="Saskatoon - (CYXE)/CYXE_AIRSPACE_CONTROLZONE" />
+	  <Map Name="Saskatoon - (CYXE)/CYXE_AIRSPACE_E" />
+	  <Map Name="Saskatoon - (CYXE)/CYXE_RUNWAYS" />
     </Maps>
     <Strips Mode="State" Sort="Time">
       <Window Type="State" State="Jurisdiction" Visible="true" />

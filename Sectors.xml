@@ -55,6 +55,17 @@
     <Volumes>CYQT_GND</Volumes>
   </Sector>
   
+  <!-- CYXE - Saskatoon -->
+  <Sector FullName="Saskatoon - Tower" Frequency="118.300" Callsign="CYXE_TWR" Name="CYXE_TWR" DisplayInHandoffWindow="False">
+    <Volumes>CYXE_TWR</Volumes>
+  </Sector>
+  <Sector FullName="Saskatoon - Ground" Frequency="121.900" Callsign="CYXE_GND" Name="CYXE_GND" DisplayInHandoffWindow="False">
+    <Volumes>CYXE_GND</Volumes>
+  </Sector>
+  <Sector FullName="Saskatoon - Terminal" Frequency="119.900" Callsign="CYXE_APP" Name="CYXE_APP" DisplayInHandoffWindow="False">
+    <Volumes>CYXE_APP</Volumes>
+  </Sector>
+  
   <!-- CYMJ - MOOSEJAW -->
   <Sector FullName="Moose Jaw - Tower" Frequency="126.200" Callsign="CYMJ_TWR" Name="CYMJ_TWR" DisplayInHandoffWindow="False">
     <Volumes>CYMJ_TWR</Volumes>

@@ -37,6 +37,16 @@
     <Volumes>WPG_EL_SP</Volumes>
   </Sector>
   
+  <Sector FullName="Waskesiu" Frequency="132.320" Callsign="WPG_NL_WK" Name="WPG_NL_WK" DisplayInHandoffWindow="False">
+    <Volumes>WPG_NL_WK</Volumes>
+  </Sector>
+  <Sector FullName="La Ronge" Frequency="126.400" Callsign="WPG_NL_VC" Name="WPG_NL_VC" DisplayInHandoffWindow="False">
+    <Volumes>WPG_NL_VC</Volumes>
+  </Sector>
+  <Sector FullName="North Low" Frequency="134.600" Callsign="WPG_NL_NL" Name="WPG_NL_NL" DisplayInHandoffWindow="False">
+    <Volumes>WPG_NL_NL</Volumes>
+  </Sector>
+  
   <!-- CYQT - Thunder Bay -->
   <Sector FullName="Thunder Bay - Tower" Frequency="118.100" Callsign="CYQT_TWR" Name="CYQT_TWR" DisplayInHandoffWindow="False">
     <Volumes>CYQT_TWR</Volumes>

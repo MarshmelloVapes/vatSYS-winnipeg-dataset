@@ -76,4 +76,15 @@
   <Sector FullName="Moose Jaw - Terminal" Frequency="119.000" Callsign="CYMJ_APP" Name="CYMJ_APP" DisplayInHandoffWindow="False">
     <Volumes>CYMJ_APP</Volumes>
   </Sector>
+  
+  <!-- CYQR - REGINA -->
+  <Sector FullName="Regina - Tower" Frequency="126.200" Callsign="CYQR_TWR" Name="CYQR_TWR" DisplayInHandoffWindow="False">
+    <Volumes>CYQR_TWR</Volumes>
+  </Sector>
+  <Sector FullName="Regina - Ground" Frequency="121.800" Callsign="CYQR_GND" Name="CYQR_GND" DisplayInHandoffWindow="False">
+    <Volumes>CYQR_GND</Volumes>
+  </Sector>
+  <Sector FullName="Regina - Terminal" Frequency="119.000" Callsign="CYQR_APP" Name="CYQR_APP" DisplayInHandoffWindow="False">
+    <Volumes>CYQR_APP</Volumes>
+  </Sector>
 </Sectors>

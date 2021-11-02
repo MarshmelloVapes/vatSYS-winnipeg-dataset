@@ -54,6 +54,9 @@
   <Sector FullName="Thunder Bay - Ground" Frequency="121.900" Callsign="CYQT_GND" Name="CYQT_GND" DisplayInHandoffWindow="False">
     <Volumes>CYQT_GND</Volumes>
   </Sector>
+  <Sector FullName="Thunder Bay - Terminal" Frequency="119.200" Callsign="CYQT_APP" Name="CYQT_APP" DisplayInHandoffWindow="False">
+    <Volumes>CYQT_APP</Volumes>
+  </Sector>
   
   <!-- CYXE - Saskatoon -->
   <Sector FullName="Saskatoon - Tower" Frequency="118.300" Callsign="CYXE_TWR" Name="CYXE_TWR" DisplayInHandoffWindow="False">

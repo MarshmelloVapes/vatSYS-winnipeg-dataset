@@ -281,7 +281,6 @@
 		<Sector Name="CYMJ_APP" />
     </Sectors>
     <Maps>
-	  <Map Name="CZWG_GEO" />
 	  <Map Name="CZWG FIR/FIR Runways" />
 	  <Map Name="Moose Jaw - (CYMJ)/CYMJ_AIRSPACE_CONTROLZONE" />
 	  <Map Name="Moose Jaw - (CYMJ)/CYMJ_AIRSPACE_E" />
@@ -339,6 +338,37 @@
 	  <Map Name="CZWG FIR/FIR Runway Numbers" />
 	  <Map Name="Thunder Bay - (CYQT)/CYQT_AIRSPACE_CONTROLZONE" />
 	  <Map Name="Thunder Bay - (CYQT)/CYQT_AIRSPACE_E" />
+    </Maps>
+    <Strips Mode="State" Sort="Time">
+      <Window Type="State" State="Jurisdiction" Visible="true" />
+      <Window Type="State" State="Announced" Visible="true" />
+      <Window Type="State" State="Preactive" Visible="true" />
+    </Strips>
+    <CFL QuickLevel="10000" />
+    <ArrivalLists>
+    </ArrivalLists>
+    <ControllerInfo>
+	  <Line>Thanks for flying with the Winnipeg FIR!</Line>
+	  <Line>Questions, comments or feedback? We want to hear it!</Line>
+	  <Line>Visit us at winnipegfir.ca.</Line>
+    </ControllerInfo>
+  </Position>
+
+  <Position Name="Thunder Bay (CYQT) - Terminal" Type="ASD" DefaultCenter="+482219.189-0891918.141" DefaultRange="270">
+    <Sectors>
+		<Sector Name="CYQT_APP" />
+    </Sectors>
+    <Maps>
+	  <Map Name="CZWG FIR/FIR Runways" />
+	  <Map Name="CZWG FIR/FIR Runway Numbers" />
+	  <Map Name="Thunder Bay - (CYQT)/CYQT_AIRSPACE_CONTROLZONE" />
+	  <Map Name="Thunder Bay - (CYQT)/CYQT_AIRSPACE_E" />
+	  <Map Name="Thunder Bay - (CYQT)/CYQT_RUNWAYS" />
+	  <Map Name="Thunder Bay - (CYQT)/CYQT Airways" />
+	  <Map Name="Thunder Bay - (CYQT)/CYQT Arrows" />
+	  
+	  <Map Name="CYWG/CYWG Fixes - Symbol" />
+	  <Map Name="CYWG/CYWG NDB - Symbol" />
     </Maps>
     <Strips Mode="State" Sort="Time">
       <Window Type="State" State="Jurisdiction" Visible="true" />
@@ -413,7 +443,6 @@
 		<Sector Name="CYQR_APP" />
     </Sectors>
     <Maps>
-	  <Map Name="CZWG_GEO" />
 	  <Map Name="CZWG FIR/FIR Runways" />
 	  <Map Name="CZWG FIR/FIR Runway Numbers" />
 	  <Map Name="Regina - (CYQR)/CYQR_AIRSPACE_CONTROLZONE" />
@@ -501,7 +530,6 @@
 		<Sector Name="CYXE_APP" />
     </Sectors>
     <Maps>
-	  <Map Name="CZWG_GEO" />
 	  <Map Name="CZWG FIR/FIR Runways" />
 	  <Map Name="CZWG FIR/FIR Runway Numbers" />
 	  

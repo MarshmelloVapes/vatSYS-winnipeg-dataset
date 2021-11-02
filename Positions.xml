@@ -8,6 +8,7 @@
       <Map Name="CZWG_GEO" />
 	  <Map Name="CZWG_NDB" />
 	  <Map Name="CZWG FIR/FIR Border" />
+	  <Map Name="CZWG FIR/AIRWAYS - LOW" />
 	  
 	  <Map Name="CYWG/WGCZ" />
 	  <Map Name="Moose Jaw - (CYMJ)/CYMJ_AIRSPACE_CONTROLZONE" />

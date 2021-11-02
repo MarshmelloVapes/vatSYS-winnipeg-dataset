@@ -5,8 +5,7 @@
 		<Sector Name="WPG_CTR" />
     </Sectors>
     <Maps>
-      <Map Name="CZWG_GEO" />
-	  <Map Name="CZWG_NDB" />
+      <Map Name="CZWG FIR/FIR Lakes" />
 	  <Map Name="CZWG FIR/FIR Border" />
 	  <Map Name="CZWG FIR/AIRWAYS - LOW" />
 	  

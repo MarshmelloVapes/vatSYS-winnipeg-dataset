@@ -7,7 +7,6 @@ Big ticket items:
 3) Add all atis info.
 4) Start converting the enhanced files.
 5) Continue to add the main airports ground layouts + positions + sectors
-6) Maybe look at converting the tags to match CSiT. (Other profiles have DLL to change tag)
 7) Make sure sectors match and are complete.
 
 Little guys:
@@ -15,7 +14,7 @@ Little guys:
 1) Change CPDLC to match VatCAN style.
 
 To change colors rename the "Colours_XX" file to "Colours" to get the style you're after.
-If you add custom colours, make sure to add them to each of the colour files :)
+If you add custom colours, make sure to add them to each of the colour files :) The main colour will be the Dark theme.
 
 -- Light -- ![VATSYS_Light4](https://user-images.githubusercontent.com/13305987/139317274-683f4825-4ebb-4916-93b5-75d3166e401f.PNG)
 

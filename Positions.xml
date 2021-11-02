@@ -135,13 +135,17 @@
   </Position>
   
   <!-- WINNIPEG -->
-  <Position Name="Winnipeg (CYWG) - Terminal" Type="ASD" DefaultCenter="+495436.050-0971424.338" DefaultRange="290">
+  <Position Name="Winnipeg (CYWG) - Terminal" Type="ASD" DefaultCenter="+495436.050-0971424.338" DefaultRange="295">
     <Sectors>
 		<Sector Name="CYWG_APP" />
     </Sectors>
     <Maps>
 	  <Map Name="CYWG/Airspace" />
-	  <Map Name="CZWG_NDB" />
+	  <Map Name="CYWG/CYWG Arrows" />
+	  <Map Name="CYWG/CYWG Airways" />
+	  <Map Name="CYWG/CYWG Fixes - Symbol" />
+	  <Map Name="CYWG/CYWG NDB - Symbol" />
+	  <Map Name="CYWG/CYWG TCU Corridors" />
 	  <Map Name="CZWG FIR/FIR Runways" />
 
 	  <Map Name="CYWG/WGCZ" />

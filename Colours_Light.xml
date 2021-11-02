@@ -9,6 +9,13 @@
 	<B>141</B>
   </Colour>
   <Colour id="Custom">
+	<Use>Symbols for Terminal</Use>
+	<Name>TermSym</Name>
+	<R>225</R>
+	<G>155</G>
+	<B>255</B>
+  </Colour>
+  <Colour id="Custom">
 	<Use>HI-LO-NO control borders</Use>
 	<Name>Control_Border_Zones</Name>
 	<R>75</R>

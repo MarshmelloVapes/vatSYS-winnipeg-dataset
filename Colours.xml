@@ -9,6 +9,13 @@
 	<B>141</B>
   </Colour>
   <Colour id="Custom">
+	<Use>Symbols for Terminal</Use>
+	<Name>TermSym</Name>
+	<R>225</R>
+	<G>155</G>
+	<B>255</B>
+  </Colour>
+  <Colour id="Custom">
 	<Use>Control circle colour</Use>
 	<Name>FFix</Name>
 	<R>255</R>

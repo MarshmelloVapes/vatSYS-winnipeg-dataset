@@ -94,11 +94,11 @@
       <Item Type="LABEL_ITEM_WXDEV_R" Colour="StaticTools" LeftClick="Label_WX_R_Popup"/>
     </DataLine>
     <DataLine id="ADESTYPE">
-      <Item Type="LABEL_ITEM_ADES" BackgroundColour="" Colour="" LeftClick="" MiddleClick="" RightClick=""/>
-      <Item Type="LABEL_ITEM_ATYPE" BackgroundColour="" Colour="" LeftClick="" MiddleClick="" RightClick="" LeftPadding="1"/>
+      <Item Type="LABEL_ITEM_ATYPE" BackgroundColour="" Colour="" LeftClick="" MiddleClick="" RightClick=""/>
+	  <Item Type="LABEL_ITEM_ADES" BackgroundColour="" Colour="" LeftClick="" MiddleClick="" RightClick="" LeftPadding="1"/>
       <Item Type="LABEL_ITEM_PBN_CAP" BackgroundColour="" Colour="" LeftClick="" MiddleClick="" RightClick="" LeftPadding="1"/>
     </DataLine>
-    <DataLine SharedWith="ADESTYPE">
+    <DataLine id="TOGGLE2" Visibility="Toggle">
       <Item Type="LABEL_ITEM_NEXT_FIX" BackgroundColour="" Colour="" LeftClick="" MiddleClick="" RightClick=""/>
       <Item Type="LABEL_ITEM_NEXT_FIX_2" BackgroundColour="" Colour="" LeftClick="" MiddleClick="" RightClick="" LeftPadding="1"/>
     </DataLine>

@@ -16,8 +16,8 @@ Little guys:
 To change colors rename the "Colours_XX" file to "Colours" to get the style you're after.
 If you add custom colours, make sure to add them to each of the colour files :) The main colour will be the Dark theme.
 
--- Light -- ![VATSYS_Light4](https://user-images.githubusercontent.com/13305987/139317274-683f4825-4ebb-4916-93b5-75d3166e401f.PNG)
+-- Dark -- ![VATSYS_Dark6](https://user-images.githubusercontent.com/13305987/140194364-e7231b67-f35a-4b73-a4cf-ed834e720123.PNG)
 
--- Dark -- ![VATSYS_Dark4](https://user-images.githubusercontent.com/13305987/139564932-1aad2431-3a9f-4866-a259-06f3b9a17384.PNG)
+-- Light -- ![VATSYS_Light4](https://user-images.githubusercontent.com/13305987/139317274-683f4825-4ebb-4916-93b5-75d3166e401f.PNG)
 
 -- Blue -- ![VATSYS_Basic5](https://user-images.githubusercontent.com/13305987/139150791-480886d0-9b40-4efe-a430-ac8a8ca614ed.PNG)

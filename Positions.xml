@@ -2,12 +2,24 @@
 <Positions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Position Name="Winnipeg Center All" Type="ASD" DefaultCenter="+530351.051-0932039.771" DefaultRange="3000">
     <Sectors>
-		<Sector Name="WPG_CTR" />
+		<Sector Name="WPG_LO_GP" />
+		<Sector Name="WPG_LO_WW" />
+		<Sector Name="WPG_LO_WE" />
+		<Sector Name="WPG_NL_WK" />
+		<Sector Name="WPG_NL_VC" />
+		<Sector Name="WPG_NL_NL" />
+		<Sector Name="WPG_EL_TL" />
+		<Sector Name="WPG_EL_QK" />
+		<Sector Name="WPG_EL_SP" />
     </Sectors>
     <Maps>
       <Map Name="CZWG FIR/FIR Lakes" />
 	  <Map Name="CZWG FIR/FIR Border" />
 	  <Map Name="CZWG FIR/AIRWAYS - LOW" />
+	  
+	  <Map Name="CZWG FIR/West Low Borders" />
+	  <Map Name="CZWG FIR/North Low Borders" />
+	  <Map Name="CZWG FIR/East Low Borders" />
 	  
 	  <Map Name="CYWG/WGCZ" />
 	  <Map Name="Moose Jaw - (CYMJ)/CYMJ_AIRSPACE_CONTROLZONE" />
